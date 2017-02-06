@@ -25,7 +25,8 @@ ba_names <- as.character(ba_names[,"Taxa"])
 traits <- read.csv("data/Orthoptera database.csv");
 traits_names <- as.character(traits[,"SPECIES"])
 
-names <- unique(c(ba_names, stk_names, traits_names))
+names <- sort(unique(c(ba_names, stk_names, traits_names)))
+names < names[-1]
 
 library(VennDiagram)
 
@@ -39,7 +40,9 @@ draw.triple.venn(
   length(intersect(ba_names,traits_names)),
   length(intersect(ba_names, intersect(stk_names, traits_names))),
   category = c("BioAcoustica", "Supertree", "Traits"),
-  main = "Data overlap in AAO"
+  main = "Data overlap in AAO",
+  euler.d = TRUE,
+  scaled = TRUE
 );
 dev.off()
 
@@ -48,4 +51,27 @@ outersect <- function(x, y) {
          setdiff(y, x)))
 }
 
-outersect(ba_names, intersect(stk_names, traits_names)) -> demo
+ba <- stk <- trait <- c()
+
+for (i in 1:length(names)) {
+  row <- names[i];
+  if (names[i] %in% ba_names) {
+    ba <- c(ba, "Yes")
+  } else {
+    ba <- c(ba, "")
+  }
+  if (names[i] %in% stk_names) {
+    stk <- c(stk, "Yes")
+  } else {
+    stk <- c(stk, "")
+  }
+  if (names[i] %in% traits_names) {
+    trait <- c(trait, "Yes")
+  } else {
+    trait <- c(trait, "")
+  }
+}
+
+table <- data.frame(names, ba, stk, trait)
+names(table) <- c("Species", "BioAcoustica", "Supertree", "Traits")
+print(xtable(table), type="html", file="overlap.html")
