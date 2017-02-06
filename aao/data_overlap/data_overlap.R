@@ -19,7 +19,6 @@ for (i in 1:end) {
 }
 
 ba_names <- unique(read.csv("http://bio.acousti.ca/aao/orthoptera"))
-test <- ba_names;
 ba_names <- as.character(ba_names[,"Taxa"])
 
 
@@ -30,6 +29,7 @@ names <- unique(c(ba_names, stk_names, traits_names))
 
 library(VennDiagram)
 
+png("data_overlap_venn.png")
 draw.triple.venn(
   length(ba_names),
   length(stk_names),
@@ -41,6 +41,7 @@ draw.triple.venn(
   category = c("BioAcoustica", "Supertree", "Traits"),
   main = "Data overlap in AAO"
 );
+dev.off()
 
 outersect <- function(x, y) {
   sort(c(setdiff(x, y),
