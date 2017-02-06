@@ -74,4 +74,6 @@ for (i in 1:length(names)) {
 
 table <- data.frame(names, ba, stk, trait)
 names(table) <- c("Species", "BioAcoustica", "Supertree", "Traits")
+
+library(xtable)
 print(xtable(table), type="html", file="overlap.html")
