@@ -1,1 +1,3 @@
-Rscript /var/www/html/labs.acousti.ca/aao/data_overlap/data_overlap.R
+cd aao/data_overlap
+Rscript data_overlap.R
+cd ..
