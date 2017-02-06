@@ -25,8 +25,11 @@ ba_subspecies <- as.character(ba_subspecies[,"Taxa"])
 ba_names <- c(ba_names, ba_subspecies)
 
 
-traits <- read.csv("data/Orthoptera database.csv");
+#traits <- read.csv("data/Orthoptera database.csv");
+traits <- read.csv("data/trait_species.csv", header = FALSE, col.names=c("SPECIES"));
 traits_names <- as.character(traits[,"SPECIES"])
+
+
 
 names <- sort(unique(c(ba_names, stk_names, traits_names)))
 
