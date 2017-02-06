@@ -20,13 +20,15 @@ for (i in 1:end) {
 
 ba_names <- unique(read.csv("http://bio.acousti.ca/aao/orthoptera"))
 ba_names <- as.character(ba_names[,"Taxa"])
+ba_subspecies <- unique(read.csv("http://bio.acousti.ca/aao/orthoptera/subspecies"))
+ba_subspecies <- as.character(ba_subspecies[,"Taxa"])
+ba_names <- c(ba_names, ba_subspecies)
 
 
 traits <- read.csv("data/Orthoptera database.csv");
 traits_names <- as.character(traits[,"SPECIES"])
 
 names <- sort(unique(c(ba_names, stk_names, traits_names)))
-names < names[-1]
 
 library(VennDiagram)
 
