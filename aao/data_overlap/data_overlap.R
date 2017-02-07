@@ -1,3 +1,8 @@
+library(DrupalR)
+library(RCurl)
+#Authenticate
+c <- drupalr.authenticate("bio.acousti.ca", "aao_bot", "aao_bot")
+
 stk_file <- readLines("data/stk.txt")
 
 start <- NULL;
@@ -18,13 +23,13 @@ for (i in 1:end) {
   }
 }
 
-ba_names <- unique(read.csv("http://bio.acousti.ca/aao/orthoptera"))
+ba_names <- unique(read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/orthoptera", c)))
 ba_names <- as.character(ba_names[,"Taxa"])
-ba_subspecies <- unique(read.csv("http://bio.acousti.ca/aao/orthoptera/subspecies"))
+ba_subspecies <- unique(read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/orthoptera/subspecies", c)))
 ba_subspecies <- as.character(ba_subspecies[,"Taxa"])
 ba_names <- c(ba_names, ba_subspecies)
 
-ba_silent <- unique(read.csv("http://bio.acousti.ca/aao/silent_species"))
+ba_silent <- read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/silent_species", c))
 
 
 #traits <- read.csv("data/Orthoptera database.csv");
