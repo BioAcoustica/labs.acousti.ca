@@ -37,9 +37,16 @@ ba_silent <- read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/silent_s
 traits <- read.csv("data/trait_species.csv", header = FALSE, col.names=c("SPECIES"));
 traits_names <- as.character(traits[,"SPECIES"])
 
+#Orthoptera Species File
+#Hand processed reuslt of Taxon 'complex search' for taxa with recordings
+osf_names <- read.csv("data/osf_sounds.csv", header=FALSE, col.names=c("SPECIES"));
+osf_names <- as.character(osf_names[,"SPECIES"]);
 
+#GBIF-ML
+ml_names <- read.csv("data/0057836-160910150852091.csv", header=FALSE, col.names=c("SPECIES"));
+ml_names <- unique(as.character(ml_names[,"SPECIES"]))
 
-names <- sort(unique(c(ba_names, stk_names, traits_names)))
+names <- sort(unique(c(ba_names, stk_names, traits_names, osf_names, ml_names)))
 
 library(VennDiagram)
 
@@ -64,7 +71,7 @@ outersect <- function(x, y) {
          setdiff(y, x)))
 }
 
-ba <- stk <- trait <- c()
+ba <- stk <- trait <- osf <- ml <- c()
 
 for (i in 1:length(names)) {
   if (names[i] %in% ba_names) {
@@ -83,10 +90,19 @@ for (i in 1:length(names)) {
   } else {
     trait <- c(trait, "")
   }
-}
+  if (names[i] %in% osf_names) {
+    osf <- c(osf, "Yes")
+  } else {
+    osf <- c(osf, "")
+  }
+  if (names[i] %in% ml_names) {
+    ml <- c(ml, "Yes")
+  } else {
+    ml <- c(ml, "")
+  }}
 
-table <- data.frame(names, ba, stk, trait)
-names(table) <- c("Species", "BioAcoustica", "Supertree", "Traits")
+table <- data.frame(names, ba, stk, trait, osf, ml)
+names(table) <- c("Species", "BioAcoustica", "Supertree", "Traits", "OSF Sounds", "Macaulay Library")
 
 library(xtable)
 print(xtable(table), type="html", file="overlap.html")
