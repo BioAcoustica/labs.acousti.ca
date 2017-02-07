@@ -1,7 +1,8 @@
 library(DrupalR)
 library(RCurl)
 #Authenticate
-c <- drupalr.authenticate("bio.acousti.ca", "aao_bot", "aao_bot")
+source("authenticate.R")
+c <- drupalr.authenticate("bio.acousti.ca", user, pass)
 
 stk_file <- readLines("data/stk.txt")
 
