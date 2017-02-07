@@ -24,6 +24,8 @@ ba_subspecies <- unique(read.csv("http://bio.acousti.ca/aao/orthoptera/subspecie
 ba_subspecies <- as.character(ba_subspecies[,"Taxa"])
 ba_names <- c(ba_names, ba_subspecies)
 
+ba_silent <- unique(read.csv("http://bio.acousti.ca/aao/silent_species"))
+
 
 #traits <- read.csv("data/Orthoptera database.csv");
 traits <- read.csv("data/trait_species.csv", header = FALSE, col.names=c("SPECIES"));
@@ -59,11 +61,11 @@ outersect <- function(x, y) {
 ba <- stk <- trait <- c()
 
 for (i in 1:length(names)) {
-  row <- names[i];
   if (names[i] %in% ba_names) {
     ba <- c(ba, "Yes")
   } else {
-    ba <- c(ba, "")
+    silent <- ba_silent[ba_silent$Taxon == names[i],]
+    ba <- c(ba, as.character(silent[1, "Trait"]))
   }
   if (names[i] %in% stk_names) {
     stk <- c(stk, "Yes")
