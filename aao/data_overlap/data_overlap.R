@@ -104,5 +104,6 @@ for (i in 1:length(names)) {
 table <- data.frame(names, ba, stk, trait, osf, ml)
 names(table) <- c("Species", "BioAcoustica", "Supertree", "Traits", "OSF Sounds", "Macaulay Library")
 
+#Generate HTML table of data overlap
 library(xtable)
 print(xtable(table), type="html", file="overlap.html")
