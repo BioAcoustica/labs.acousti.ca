@@ -1,9 +1,13 @@
-library(DrupalR)
+library(DrupalR) #Used to authenticate to bio.acousti.ca (replace with bioacousticaR when ready)
 library(RCurl)
-#Authenticate
+library(xtable)
+library(VennDiagram)
+
+#Authenticate to bio.acousti.ca, using credentials in authenticate.R  (not in version control)
 source("authenticate.R")
 c <- drupalr.authenticate("bio.acousti.ca", user, pass)
 
+#Load and parse STK file - this could be broken out into another package? PErhaps with extra functions
 stk_file <- readLines("data/stk.txt")
 
 start <- NULL;
@@ -24,15 +28,18 @@ for (i in 1:end) {
   }
 }
 
+#Get list of species and subspecies with recordings from bio.acousti.ca
+#This relies on custom views for this project at bio.acousti.ca/aao
 ba_names <- unique(read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/orthoptera", c)))
 ba_names <- as.character(ba_names[,"Taxa"])
 ba_subspecies <- unique(read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/orthoptera/subspecies", c)))
 ba_subspecies <- as.character(ba_subspecies[,"Taxa"])
 ba_names <- c(ba_names, ba_subspecies)
 
+#Get a list of species known to not stridulate from bio.acousti.ca
 ba_silent <- read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/silent_species", c))
 
-
+#Process Adam's traits CSV
 #traits <- read.csv("data/Orthoptera database.csv");
 traits <- read.csv("data/trait_species.csv", header = FALSE, col.names=c("SPECIES"));
 traits_names <- as.character(traits[,"SPECIES"])
@@ -43,13 +50,14 @@ osf_names <- read.csv("data/osf_sounds.csv", header=FALSE, col.names=c("SPECIES"
 osf_names <- as.character(osf_names[,"SPECIES"]);
 
 #GBIF-ML
+#Downloaded dataset doi:10.15468/dl.yagbjz
 ml_names <- read.csv("data/0057836-160910150852091.csv", header=FALSE, col.names=c("SPECIES"));
 ml_names <- unique(as.character(ml_names[,"SPECIES"]))
 
+#Concatenate name strings
 names <- sort(unique(c(ba_names, stk_names, traits_names, osf_names, ml_names)))
 
-library(VennDiagram)
-
+#VennDiagram of overlap
 png("data_overlap_venn.png")
 draw.triple.venn(
   length(ba_names),
@@ -66,13 +74,8 @@ draw.triple.venn(
 );
 dev.off()
 
-outersect <- function(x, y) {
-  sort(c(setdiff(x, y),
-         setdiff(y, x)))
-}
-
+#Compare overlap
 ba <- stk <- trait <- osf <- ml <- c()
-
 for (i in 1:length(names)) {
   if (names[i] %in% ba_names) {
     ba <- c(ba, "Yes")
@@ -100,10 +103,8 @@ for (i in 1:length(names)) {
   } else {
     ml <- c(ml, "")
   }}
-
 table <- data.frame(names, ba, stk, trait, osf, ml)
 names(table) <- c("Species", "BioAcoustica", "Supertree", "Traits", "OSF Sounds", "Macaulay Library")
 
 #Generate HTML table of data overlap
-library(xtable)
 print(xtable(table), type="html", file="overlap.html")
