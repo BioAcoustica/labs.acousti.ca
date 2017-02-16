@@ -31,7 +31,7 @@ for (i in 1:end) {
 #Get list of species and subspecies with recordings from bio.acousti.ca
 #This relies on custom views for this project at bio.acousti.ca/aao
 ba_names <- unique(read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/orthoptera", c)))
-ba_names <- as.character(ba_names[,"Taxa"])
+ba_names <- trimws(as.character(ba_names[,"Taxa"]))
 ba_subspecies <- unique(read.csv(text = drupalr.get("http://bio.acousti.ca/", "aao/orthoptera/subspecies", c)))
 ba_subspecies <- as.character(ba_subspecies[,"Taxa"])
 ba_names <- c(ba_names, ba_subspecies)
@@ -55,7 +55,7 @@ ml_names <- read.csv("data/0057836-160910150852091.csv", header=FALSE, col.names
 ml_names <- unique(as.character(ml_names[,"SPECIES"]))
 
 #Concatenate name strings
-names <- sort(unique(c(ba_names, stk_names, traits_names, osf_names, ml_names)))
+names <- unique(sort(c(ba_names, stk_names, traits_names, osf_names, ml_names)))
 
 #VennDiagram of overlap
 png("data_overlap_venn.png")
