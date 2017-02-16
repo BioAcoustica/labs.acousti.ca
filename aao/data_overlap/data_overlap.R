@@ -47,7 +47,7 @@ traits_names <- as.character(traits[,"SPECIES"])
 #Orthoptera Species File
 #Hand processed reuslt of Taxon 'complex search' for taxa with recordings
 osf_names <- read.csv("data/osf_sounds.csv", header=FALSE, col.names=c("SPECIES"));
-osf_names <- as.character(osf_names[,"SPECIES"]);
+osf_names <- gsub("\\s+", " ", as.character(osf_names[,"SPECIES"]));
 
 #GBIF-ML
 #Downloaded dataset doi:10.15468/dl.yagbjz
@@ -81,7 +81,7 @@ for (i in 1:length(names)) {
     ba <- c(ba, "Yes")
   } else {
     silent <- ba_silent[ba_silent$Taxon == names[i],]
-    ba <- c(ba, as.character(silent[1, "Trait"]))
+    ba <- c(ba, as.character(silent[1, "Value"]))
   }
   if (names[i] %in% stk_names) {
     stk <- c(stk, "Yes")
