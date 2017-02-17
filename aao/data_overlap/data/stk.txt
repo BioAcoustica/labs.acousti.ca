@@ -2,13 +2,13 @@
  Data summary of: Orthoptera
 ======================
 
-Number of taxa: 2306
-Number of characters: 54
+Number of taxa: 2153
+Number of characters: 62
 Number of character types: 4
-Number of trees: 241
+Number of trees: 321
 Number of fossil taxa: 0
 Number of analyses: 10
-Data spans: 1984 - 2015
+Data spans: 1984 - 2017
 
 Publication years:
 ----------------------
@@ -17,7 +17,7 @@ Publication years:
     1986: 0
     1987: 0
     1988: 0
-    1989: 1
+    1989: 0
     1990: 0
     1991: 1
     1992: 0
@@ -27,23 +27,25 @@ Publication years:
     1996: 1
     1997: 3
     1998: 3
-    1999: 3
+    1999: 2
     2000: 8
-    2001: 6
-    2002: 5
-    2003: 8
+    2001: 5
+    2002: 4
+    2003: 7
     2004: 8
-    2005: 12
+    2005: 11
     2006: 15
     2007: 8
     2008: 9
     2009: 8
     2010: 14
     2011: 11
-    2012: 9
+    2012: 10
     2013: 13
     2014: 5
-    2015: 5
+    2015: 6
+    2016: 0
+    2017: 1
 ----------------------
 
 
@@ -64,7 +66,7 @@ Analyses Used:
      Maximum Parsimony
      Minimum evolution
      Neighbour Joining
-     Squared_Euclidean_distance
+     Taxonomy
      UPGMA
      WPGMA
      average_linkage
@@ -73,60 +75,68 @@ Analyses Used:
 
 Character List:
 ----------------------
-     23S    14(5.80912863071%)
-     5S    14(5.80912863071%)
-     ATP synthase 6    15(6.22406639004%)
-     ATP synthase 8    15(6.22406639004%)
-     Alleles    4(1.65975103734%)
-     Allozymes    3(1.24481327801%)
-     COIII    19(7.88381742739%)
-     DNA-AFLP    5(2.07468879668%)
-     H3 Histone    10(4.14937759336%)
-     Internal Transcribed Spacer 1    9(3.73443983402%)
-     Internal Transcribed Spacer 2    14(5.80912863071%)
-     Mitochondrially_encoded_NADH_Dehygrogenase_3    15(6.22406639004%)
-     Mitochondrially_encoded_NADH_Dehygrogenase_4    15(6.22406639004%)
-     Mitochondrially_encoded_NADH_Dehygrogenase_4L    15(6.22406639004%)
-     Mitochondrially_encoded_NADH_Dehygrogenase_6    15(6.22406639004%)
-     RAPD_markers    4(1.65975103734%)
-     RFLPA    4(1.65975103734%)
-     RNA, 18S ribosomal    37(15.3526970954%)
-     RNA, 28S ribosomal    16(6.63900414938%)
-     RNA, 5.8S ribosomal 1    1(0.414937759336%)
-     SCNPS_2    1(0.414937759336%)
-     SCNPS_211    1(0.414937759336%)
-     SCNPS_73    1(0.414937759336%)
-     SCNPS_85    1(0.414937759336%)
-     SCNPS_89    1(0.414937759336%)
-     TUBA_tubulin_alpha    2(0.829875518672%)
-     W3_wingless    2(0.829875518672%)
-     acoustics    2(0.829875518672%)
-     call_type    1(0.414937759336%)
-     chromosome_number    1(0.414937759336%)
-     colouration    4(1.65975103734%)
-     complete mitochondrial genome    13(5.39419087137%)
-     crepitation    2(0.829875518672%)
-     cytochrome b    57(23.6514522822%)
-     eukaryotic translation elongation factor 1 alpha 1    1(0.414937759336%)
-     external_morphology    2(0.829875518672%)
-     genital    47(19.5020746888%)
-     male_male_interactions    1(0.414937759336%)
-     maturity_season    1(0.414937759336%)
-     mitochondrial control region    6(2.48962655602%)
-     mitochondrially encoded 12S RNA    43(17.8423236515%)
-     mitochondrially encoded 16S RNA    86(35.6846473029%)
-     mitochondrially encoded NADH dehydrogenase 1    19(7.88381742739%)
-     mitochondrially encoded NADH dehydrogenase 2    30(12.4481327801%)
-     mitochondrially encoded NADH dehydrogenase 5    25(10.3734439834%)
-     mitochondrially encoded cytochrome c oxidase I    96(39.8340248963%)
-     mitochondrially encoded cytochrome c oxidase II    59(24.4813278008%)
-     mitochondrially encoded tRNA leucine    3(1.24481327801%)
-     mitochondrially encoded tRNA valine    3(1.24481327801%)
-     nuclear_DNA    2(0.829875518672%)
-     preferred_male_habitat_during_acoustic_signalling    1(0.414937759336%)
-     somatic    55(22.8215767635%)
-     stridulation    1(0.414937759336%)
-     switch_wing_singing    1(0.414937759336%)
+     23S    11(3.42679127726%)
+     5S    11(3.42679127726%)
+     ATP synthase 6    12(3.73831775701%)
+     ATP synthase 8    12(3.73831775701%)
+     Alleles    4(1.246105919%)
+     Allozymes    3(0.934579439252%)
+     COIII    16(4.98442367601%)
+     DNA-AFLP    3(0.934579439252%)
+     H3 Histone    11(3.42679127726%)
+     Internal Transcribed Spacer 1    9(2.80373831776%)
+     Internal Transcribed Spacer 2    14(4.36137071651%)
+     Mitochondrially_encoded_NADH_Dehygrogenase_3    12(3.73831775701%)
+     Mitochondrially_encoded_NADH_Dehygrogenase_4    12(3.73831775701%)
+     Mitochondrially_encoded_NADH_Dehygrogenase_4L    12(3.73831775701%)
+     Mitochondrially_encoded_NADH_Dehygrogenase_6    12(3.73831775701%)
+     RAPD    1(0.311526479751%)
+     RAPD_markers    3(0.934579439252%)
+     RFLPA    4(1.246105919%)
+     RNA, 18S ribosomal    38(11.8380062305%)
+     RNA, 28S ribosomal    16(4.98442367601%)
+     RNA, 5.8S ribosomal 1    1(0.311526479751%)
+     SCNPS_2    1(0.311526479751%)
+     SCNPS_211    1(0.311526479751%)
+     SCNPS_73    1(0.311526479751%)
+     SCNPS_85    1(0.311526479751%)
+     SCNPS_89    1(0.311526479751%)
+     TUBA_tubulin_alpha    2(0.623052959502%)
+     Taxonomy    1(0.311526479751%)
+     W3_wingless    2(0.623052959502%)
+     acoustics    2(0.623052959502%)
+     call_type    1(0.311526479751%)
+     chromosome_number    1(0.311526479751%)
+     colouration    2(0.623052959502%)
+     complete mitochondrial genome    15(4.67289719626%)
+     crecipitation    1(0.311526479751%)
+     crepitation    1(0.311526479751%)
+     cytochrome b    54(16.8224299065%)
+     eukaryotic translation elongation factor 1 alpha 1    1(0.311526479751%)
+     external_colouration    2(0.623052959502%)
+     external_morphology    2(0.623052959502%)
+     genital    10(3.11526479751%)
+     genitalia    33(10.2803738318%)
+     male_male_interactions    1(0.311526479751%)
+     maturity_season    1(0.311526479751%)
+     mitochondrial control region    6(1.8691588785%)
+     mitochondrially encoded 12S RNA    43(13.3956386293%)
+     mitochondrially encoded 16S RNA    80(24.9221183801%)
+     mitochondrially encoded NADH dehydrogenase 1    15(4.67289719626%)
+     mitochondrially encoded NADH dehydrogenase 2    28(8.72274143302%)
+     mitochondrially encoded NADH dehydrogenase 5    22(6.85358255452%)
+     mitochondrially encoded cytochrome c oxidase I    88(27.4143302181%)
+     mitochondrially encoded cytochrome c oxidase II    55(17.1339563863%)
+     mitochondrially encoded tRNA leucine    2(0.623052959502%)
+     mitochondrially encoded tRNA valine    3(0.934579439252%)
+     mitogenome_PCGs    3(0.934579439252%)
+     mitogenome_rRNA    3(0.934579439252%)
+     nuclear_DNA    2(0.623052959502%)
+     preferred_male_habitat_during_acoustic_signalling    1(0.311526479751%)
+     somatic    51(15.8878504673%)
+     stridulation    1(0.311526479751%)
+     switch_wing_singing    1(0.311526479751%)
+     wingless    1(0.311526479751%)
 ----------------------
 
 
@@ -134,24 +144,22 @@ Taxa List:
 ----------------------
      Aboilomimus_sichuanensis
      Abracris_dilecta
+     Abracris_sp.
      Acanthacris_elgonensis
      Acanthacris_ruficornis
-     Acanthacris_ruficornis_ruficornis
      Acantheremus_colwelli
      Acanthodiphrus_sp.
      Acanthoplus_sp.
      Acanthoproctus_vittatus
      Acantoluzarida
      Acauloplacella_sp.
-     Acheta
      Acheta_domesticus
      Achurum_carinatum
      Achurum_minimipenne
      Acinipe_comptei
      Acinipe_segurensis
-     Acrida
+     Aclella_troxalis
      Acrida_bicolor
-     Acrida_cenera
      Acrida_cinerea
      Acrida_conica
      Acrida_incallida
@@ -161,11 +169,11 @@ Taxa List:
      Acrida_shanghaica
      Acrida_turrita
      Acrida_willemsei
-     Acrididae
      Acridoderes_crassus
-     Acridoderes_strenua
-     Acridoidea
+     Acridoderes_strenuus
+     Acridophaea_sp.
      Acrolophitus_hirtipes
+     Acrometopa_macropoda
      Acrometopa_servillea
      Acrometopa_sp.
      Acropsis_tectiformis
@@ -179,19 +187,17 @@ Taxa List:
      Adelotettix_gigas
      Adelotettix_sp.
      Adenes_obesus
-     Adramita_arabicum
+     Adramita_arabica
      Aegimia_sp.
+     Aeolacris_octomaculata
      Aeoloplides_turnbulli
      Aeropedellus_arcticus
      Aeropedellus_clavatus
      Aeropedellus_reuteri
      Aeropedellus_variegatus
-     Aeropus_armeniacus
-     Aeropus_sibiricus
      Aerotegmina_kilimandjarica
      Aeshna
      Aganacris_sp.
-     Agathemera
      Agathemera_crassa
      Ageneotettix_deorum
      Agesander_ruficornis
@@ -207,44 +213,26 @@ Taxa List:
      Agnotecous_sarrameaQ
      Agnotecous_tapinopus
      Agnotecous_yahoue
+     Agriacris_magnifica
      Aidemona_alticola
      Aidemona_azteca
-     Ailopus_simulatrix
+     Aiolopus_simulatrix
      Aiolopus_strepens
-     Aiolopus_tamulus
      Aiolopus_thalassinus
-     Aiolopus_thalassinus_tamulus
-     Aiolopus_tumulus
-     Alemacris_tolima
-     Alitusambilla_keniensis
-     Alitusambilla_modicicrus
+     Aistus_sp.
+     Algete_brunneri
      Allochrates
      Allonemobius_socius
      Alloteratura_sp.
-     Altichorthippus_brevicornis
-     Altichorthippus_brevipterus
-     Altichorthippus_changtunensis
-     Altichorthippus_charpini
-     Altichorthippus_chayuensis
-     Altichorthippus_conicaudatus
-     Altichorthippus_curtipennis
-     Altichorthippus_dahinganlingensis
-     Altichorthippus_deqinensis
-     Altichorthippus_fallax
-     Altichorthippus_flavabdomensis
-     Altichorthippus_genheensis
-     Altichorthippus_hammarstroenci
-     Altichorthippus_intermedius
-     Altichorthippus_louguanensis
-     Altichorthippus_nemus
-     Altichorthippus_parallelus
-     Altichorthippus_squamopennis
-     Altichorthippus_unicubitus
+     Altihoratosphaga_hanangensis
+     Altihoratosphaga_montivaga
+     Altihoratosphaga_nou
+     Altiusambilla_keniensis
      Altiusambilla_modicicrus
-     Alulacris_shilingensis
+     Alulacris_shilinensis
      Alulatettix_yunnanensis
      Amblycorypha_sp.
-     Amblyrhetus_sp.
+     Amblyrhethus_sp.
      Amblytropidia_australis
      Amblytropidia_mysteca
      Amesotropis_valga
@@ -253,22 +241,22 @@ Taxa List:
      Ampelophilus_coeruleus
      Ampelophilus_olivaceus
      Ampelophilus_truncatus
+     Amphiacusta
+     Amphinotus_amamiensis
      Amphitornus_coloradus
      Anabrus_simplex
      Anabrus_sp.
      Anacridium_aegyptium
-     Anacridium_aegyptum
      Anacridium_flavescens
      Anacridium_melanorhodon
-     Anacridium_melanorhodon_arabafrum
-     Anacridium_melanorhodon_melanorhodon
      Anacridium_moestum
      Anacridium_sp.
-     Anacridum_wernerellum
-     Anaeolopus_socius
+     Anacridium_wernerellum
      Anapodisma_miramae
-     Anapodisma_rufipenna
+     Anapodisma_rufipennis
+     Anapodisma_rufupenna
      Anaulacomera_sp.
+     Anaxipha_praepostera
      Ancistrocercus_circumdatus
      Ancistrura_nigrovittata
      Andeomezentia_napoana
@@ -277,44 +265,41 @@ Taxa List:
      Angaracris_rhodopa
      Anisoura_nicobarica
      Anoedopoda_erosa
-     Anostostomatidae
+     Anostostoma_sp.
      Anterastes_antitauricus
      Anterastes_burri
      Anterastes_serbicus
      Anterastes_tolunayi
      Anterastes_uludaghensis
-     Antillacris
      Antillacris_eumenes
      Anurogryllus_muticus
      Apacris_rubrithorax
-     Apacris_rubritorax
-     Apalacris_hyaline
      Apalacris_nigrogeniculata
      Apalacris_tonkinensis
      Apalacris_varicornis
      Apalacris_viridis
      Apalacris_xizangensis
+     Aphanolampis_aberrans
      Apholidoptera_kurda
-     Apholidoptera_pietschmani
-     Apioscelis
-     Apodsima_subaptera
+     Apholidoptera_pietschmanni
+     Apioscelis_sp.
      Appalachia_hebardi
-     Aptenopedes_sphenariodes
+     Aptenopedes_sphenarioides
+     Arachnopsita
      Arachnoscelis_rehni
      Arcyptera_brevipennis
      Arcyptera_coreana
      Arcyptera_fusca
-     Arcyptera_fusca_abogeniculata
+     Arcyptera_meridionalis
      Arcyptera_microptera
-     Arcypteridae
+     Aresceutica_morogorica
      Argemiacris_platicercis
+     Argizala_brasilensis
      Arilpa_gidya
      Arilpa_wirrilla
      Arimacris_trinitatis
-     Armatacris_xishanensis
      Arminda_brunneri
      Arminda_burri
-     Arminda_canariensis
      Arminda_fuerteventurae
      Arminda_hierroensis
      Arminda_lancerottensis
@@ -326,42 +311,42 @@ Taxa List:
      Arphia_simplex
      Arphia_sulphurea
      Arphia_xanthoptera
-     Arytropteris_modesta
      Asemoplus_montanus
-     Aserratus
      Asiotmethis_heptapotamicus
      Asiotmethis_jubatus
      Asiotmethis_muricatus
      Asiotmethis_turritus
      Asiotmethis_zacharjini
      Asonus_brachypterus
-     Assamacris_curticerca
-     Assamacris_longicerca
-     Atacamacris
+     Aspidophyma_americana
+     Assamacris_curticercus
+     Assamacris_longicercus
+     Atacamacris_diminuta
      Atachycines_sp.
      Atlanticus_gibbosus
      Atlanticus_sinensis
      Atlanticus_sp.
-     Atrachelacris_grammineus
      Atrachelacris_olivaceus
      Atrachelacris_unicolor
-     Atractomorpha__sinensis
      Atractomorpha_acutipennis
-     Atractomorpha_lats
+     Atractomorpha_lata
      Atractomorpha_sinensis
+     Atractomorpha_sp.
+     Aulacobothrus_brevicornis
+     Aulacobothrus_sinensis
+     Aulacobothrus_taeniatus
      Aulocara_elliotti
      Aulocara_femoratum
      Austracris_guttulosa
-     Australostoma_sp.
      Austrohancockia_platynota
      Austroicetes_pusilla
      Austroicetes_sp.
      Austrosalomona_sp.
      Bactrophora_mirabilis
-     Baeacris_penianus
-     Baeacris_pseudopunctulatus
-     Baeacris_punctulatus
-     Balachowskyacris_olivaceus
+     Baeacris_peniana
+     Baeacris_pseudopunctulata
+     Baeacris_punctulata
+     Balachowskyacris_olivacea
      Balboana_tibialis
      Bannacris_punctonotus
      Banza_brunnea
@@ -372,27 +357,27 @@ Taxa List:
      Banza_nihoa
      Banza_nitida
      Banza_parvula
-     Banza_pilimauiensis
+     Banza_sp_pilimauiensis
      Banza_unica
      Barbitistes_ocskayi
      Barbitistes_serricauda
-     Barytettix_humphreysi
      Barytettix_humphreysii
-     Batrachideid
      Batrachideidae_sp.
      Batrachideidae_sp._indet._1
      Batrachideidae_sp._indet._2
      Batrachideidae_sp._indet._3
-     Batrachotetrix
+     Batrachideinae
      Batrachotetrix_sp.
      Belocephalus_davisi
      Belocephalus_subapterus
+     Betiscoides_sp.
+     Beybienkia_amica
+     Beybienkia_brachyptera
      Beybienkia_songorica
      Bicolorana_bicolor
      Biroella_sp.
      Blattella_germanica
      Bogotacris_varicolor
-     Bohemanella_frigida
      Boliviacris_jujuyensis
      Bolua_turkiyae
      Booneacris_glacialis
@@ -401,73 +386,59 @@ Taxa List:
      Boopedon_nubilum
      Bootettix_argentatus
      Bora_nemoralis
-     Brachytrupes_membraneceus
+     Brachytrupes_membranaceus
+     Brachytrupes_sp.
      Bradynotes_obesa
      Bruneria_brunnea
      Bruneria_yukonensis
-     Brunneria_brunnea
-     Bryodema_diamesum
-     Bryodema_elegans
-     Bryodema_gansuensis
      Bryodema_gebleri
-     Bryodema_holdereri
-     Bryodema_holderi
-     Bryodema_luctuosum
-     Bryodema_luctuosum_indum
-     Bryodema_luctuosum_luctuosum
-     Bryodema_miramae_miramae
-     Bryodema_nigrifemura
+     Bryodema_luctuosa
+     Bryodema_miramae
      Bryodema_nigroptera
-     Bryodema_tuberculatum
-     Bryodema_xinjiangensis
-     Bryodema_xizangensis
      Bryodemella_diamesum
-     Bryodemella_gebleri
+     Bryodemella_elegans
+     Bryodemella_gansuensis
      Bryodemella_holdereri
-     Bryodemella_holderi_holderi
+     Bryodemella_nigrifemura
      Bryodemella_tuberculata
-     Bryodemella_tuberculatum_dilutum
+     Bryodemella_xinjiangensis
+     Bryodemella_xizangensis
      Bryophyma_debilis
-     Bryophyma_punctata
-     Bryophyma_tectifera
      Buckellacris_chilcotinae
      Bucrates_malivolans
-     Bufonacris
-     Bulacris_membracioides
-     Bullacris
+     Bufonacris_claraziana
      Bullacris_membracioides
      Caledia_captiva
-     Caliiptamus_abbreviatus
-     Calliphona_allaudi
-     Calliphona_konigi
+     Calephorus_compressicornis
+     Calliphona_alluaudi
+     Calliphona_koenigi
      Calliphona_palmensis
+     Calliptamulus_sp.
      Calliptamus_abbreviatus
      Calliptamus_barbarus
      Calliptamus_coelesyriensis
      Calliptamus_italicus
-     Calliptamus_turranicus
+     Calliptamus_turanicus
      Calliptamus_wattenwylianus
      Camnula_pellucida
      Camptonotus_carolinensis
      Cannula_karschi
+     Cantrallia
      Capnobotes_sp.
      Carausius
+     Carcinopsis_sp.
      Cardiodactylus_canotus
      Cardiodactylus_enkraussi
      Cardiodactylus_guttulus
-     Cardiodactylus_novaeguinea
      Cardiodactylus_novaeguineae
      Cardiodactylus_rufidulus
      Cardiodactylus_sp.
      Cardiodactylus_tankara
-     Carsula
      Carsula_brachycerca
      Carsula_brachyptera
      Carsula_yunnana
      Caruaruacris_bivittatus
-     Caryanda
      Caryanda_bambusa
-     Caryanda_bidentata
      Caryanda_elegans
      Caryanda_glauca
      Caryanda_gracilis
@@ -478,39 +449,34 @@ Taxa List:
      Caryanda_pieli
      Caryanda_quadrata
      Caryanda_vittata
-     Catantopidae
-     Catantops_pinguis
-     Catantops_pinguis_pinguis
-     Catantops_simlae
+     Caryanda_yunnana
+     Cataloipus_sp.
+     Catantops_sp.
+     Catoptropteryx_aurita
      Caulopsis_microprora
-     Celes_akitanus
-     Celes_scalosubovi
      Celes_skalozubovi
      Celes_variabilis
-     Ceracris_fasciata_fasciata
-     Ceracris_fasciata_szemaoensis
-     Ceracris_fasciata_szemaosnis
+     Ceracris_fasciata
      Ceracris_hoffmanni
-     Ceracris_nigricornis_laeta
-     Ceracris_nigricornis_nigricorn
-     Ceracris_nigricornis_nigricornis
+     Ceracris_kiangsu
+     Ceracris_nigricornis
      Ceracris_pui
+     Ceracris_szemaoensis
      Ceracris_versicolor
-     Ceracris_xizangensis_brachypennis
+     Ceracris_xizangensis
      Ceraia_mytra
      Cerberodon_portokalipes
      Cerberodon_viridis
-     Ceuthophilus
      Ceuthophilus_carlsbadensis
-     Ceuthophilus_gracilipe
      Ceuthophilus_gracilipes
+     Ceuthophilus_utahensis
      Championica_sp.
-     Charilaidae
      Chibchacris_bordoni
      Chibchacris_meridensis
+     Chimarocephala_californica
      Chimarocephala_elongata
      Chimarocephala_pacifica
-     Chironomis_thummi
+     Chironomus_thummi
      Chitaura_brachyptera
      Chitaura_elegans
      Chitaura_lucida
@@ -530,7 +496,6 @@ Taxa List:
      Chloealtis_abdominalis
      Chloealtis_conspersa
      Chloroscirtus_forceps
-     Chlorus
      Chlorus_attenuatus
      Chlorus_bolivianus
      Chlorus_borellii
@@ -540,14 +505,11 @@ Taxa List:
      Chlorus_vittatus
      Chondracris_capensis
      Chondracris_rosea
-     Chondracris_rosea_brunneri
-     Chondracris_rosea_rosea
+     Chopardminda_canariensis
      Choroedocus_capensis
-     Choroedocus_robusta
-     Choroedocus_violaceipe
+     Choroedocus_robustus
      Choroedocus_violaceipes
-     Chorthippus_aethalinus
-     Chorthippus_albicornis
+     Chorotypus_fenestratus
      Chorthippus_albomarginatus
      Chorthippus_albonemus
      Chorthippus_angulatus
@@ -555,48 +517,58 @@ Taxa List:
      Chorthippus_biguttulus
      Chorthippus_binotatus
      Chorthippus_bornhalmi
+     Chorthippus_brevicornis
+     Chorthippus_brevipterus
      Chorthippus_brunneus
-     Chorthippus_chinensis
-     Chorthippus_curtipennis
+     Chorthippus_changbaishanensis
+     Chorthippus_changtunensis
+     Chorthippus_chapini
+     Chorthippus_chayuensis
+     Chorthippus_conicaudatus
+     Chorthippus_dahinganlingensis
+     Chorthippus_deqinensis
      Chorthippus_dichrous
      Chorthippus_dorsatus
+     Chorthippus_dubius
+     Chorthippus_fallax
      Chorthippus_ferdinandi
+     Chorthippus_flavabdomenis
+     Chorthippus_genheensis
      Chorthippus_hammarstroemi
-     Chorthippus_hunanensis
+     Chorthippus_hsiai
+     Chorthippus_huchengensis
      Chorthippus_intermedius
      Chorthippus_jacobsi
-     Chorthippus_karelini_bruttius
-     Chorthippus_karelini_karelini
+     Chorthippus_karelini
      Chorthippus_lacustris
-     Chorthippus_longicornis
+     Chorthippus_louguanensis
      Chorthippus_macrocerus
      Chorthippus_maritimus
      Chorthippus_mollis
-     Chorthippus_montanus
-     Chorthippus_oschei_oschei
-     Chorthippus_oschei_pusztaensis
+     Chorthippus_nemus
+     Chorthippus_oschei
      Chorthippus_pamiricus
-     Chorthippus_parallelus
      Chorthippus_qingzangensis
-     Chorthippus_schmidti
+     Chorthippus_rubensabdomenis
+     Chorthippus_shantungensis
      Chorthippus_sp.
-     Chorthippus_strelkovi_saltator
+     Chorthippus_squamopennis
+     Chorthippus_turanicus
+     Chorthippus_unicubitus
      Chorthippus_vagans
-     Chorthophaga_viridifasciata
+     Chorthippus_zhengi
      Chortoicetes_terminifera
      Chortophaga_australior
      Chortophaga_cubensis
      Chortophaga_mendocino
-     Chortophaga_virdifasciata
      Chortophaga_viridifasciata
-     Chortophaga_viridisfasciata
-     Chortoscirtes_masaicus_sp.n.
-     Chortoscirtes_meruensis_comb._n.
-     Chortoscirtes_pseudomeruensis_sp.n.
-     Chortoscirtes_puguensis_sp.n.
-     Chortoscirtes_serengeti_sp.n.
+     Chortoscirtes_masaicus
+     Chortoscirtes_meruensis
+     Chortoscirtes_pseudomeruensis
+     Chortoscirtes_puguensis
+     Chortoscirtes_serengeti
      Chromacris_speciosa
-     Chrotogonidae
+     Chrotogonus_sp.
      Chrysochraon_dispar
      Cibolacris_parviceps
      Circacris
@@ -607,26 +579,25 @@ Taxa List:
      Circotettix_undulatus
      Clematodina_eckardtiana
      Clonia_sp.
+     Cnemotettix_miniatus
      Cocconotus_sp.1
      Cocconotus_sp.2
      Cohnia_andeana
+     Colemania_sphenarioides
      Comacris_lamottei
-     Comicus
      Comicus_campestris
      Comicus_sp.
      Compsorhipis_davidiana
-     Compsorhips_davidium
      Congoa_katangae
      Conocephalus_conocephalus
-     Conocephalus_discolor
+     Conocephalus_fuscus
      Conocephalus_ictus
      Conocephalus_longiceps
-     Conocephalus_maculates
      Conocephalus_maculatus
      Conocephalus_percaudatus
      Conocephalus_saltator
      Conocephalus_sp.
-     Conophyma_almasyi_almasyi
+     Conophyma_almasyi
      Conophyma_kuznetzovi
      Conophyma_poimazaricum
      Conophyma_reinigi
@@ -638,24 +609,24 @@ Taxa List:
      Conophymopsis_labrispinus
      Conophymopsis_linguspinus
      Conozoa_texana
-     Cooloola
+     Cooloola_ziljan
      Cophotylus_decorus
      Copiocera_austera
-     Copiphora
-     Copiphora_rhinoceras
-     Copiphora_rhinocerous
+     Copiocera_sp.
+     Copiphora_rhinoceros
      Coptacra_hainanensis
      Coptacra_tonkinensis
+     Coptaspis_sp.
      Coptaspis_sp._6
      Coptotettix_gongshanensis
-     Coptotettix_huangjiangensis
+     Coptotettix_huanjiangensis
      Cordillacris_crenulata
      Cordillacris_occipitalis
      Coscineuta_cicatricosa
      Coscineuta_coxalis
      Coscineuta_n._sp.
      Coscineuta_sp.
-     Covasacris_albitarsis
+     Costalimacris_sp.
      Covasacris_pallidinota
      Coyacris_collis
      Coyacris_saltensis
@@ -663,32 +634,24 @@ Taxa List:
      Cristobalina_sellata
      Crites
      Crossodonthina
+     Cryptocatantops_simlae
      Curvipennis_wixiensis
-     Cylindraustralia
      Cylindraustralia_kochii
-     Cylinfraustralia_kochii
+     Cylindraustralia_sp.
      Cymatomera_denticollis
-     Cyphoderis
-     Cyphoderris
+     Cymatomera_sp.
+     Cyphacris_sp.
      Cyphoderris_buckelli
      Cyphoderris_monstrosa
-     Cyphoderris_monstrosus
-     Cyphoderris_montrosus
      Cyphoderris_strepitans
-     Cyrtacanthacris_aeruginosa_aeruginosa
-     Cyrtacanthacris_aeruginosa_flavescens
-     Cyrtacanthacris_aeruginosa_goldingi
+     Cyrtacanthacris_aeruginosa
      Cyrtacanthacris_sulphurea
      Cyrtacanthacris_tatarica
-     Cyrtacanthacris_tatarica_abyssinica
-     Cyrtacanthacris_tatarica_tatarica
      Dactylotum_bicolor
-     Dactylotum_bicolor_bicolor
      Daihinia_sp.
      Daihinibaenetes_giganteus
      Dasyhippus_barbipes
      Dasyhippus_peipingensis
-     Dasyhippus_pepingensis
      Deflorita_integra
      Deinacrida_carinata
      Deinacrida_connectens
@@ -705,17 +668,15 @@ Taxa List:
      Dendrotettix_quercus
      Deracantha_onos
      Deracanthina_deracanthoides
-     Dericorys_annulata_roseipennis
+     Dericorys_annulata
      Dericorys_tibialis
-     Dianemobius_taprobanensis
+     Desmoptera_sp.
+     Diabolocatantops_pinguis
      Dichromatos_corupa
      Dichromatos_lilloanus
-     Dichromatos_liloanus
      Dichromatos_montanus
      Dichromatos_schrottkyi
      Dichromorpha_viridis
-     Dichroplus_Baeacris_punctulatus
-     Dichroplus_bergi
      Dichroplus_conspersus
      Dichroplus_democraticus
      Dichroplus_elongatus
@@ -727,7 +688,7 @@ Taxa List:
      Dichroplus_schulzi
      Dichroplus_silveiraguidoi
      Dichroplus_vittatus
-     Dichroplus_vittiger
+     Dichroplus_vittigerum
      Diestramima_sp.
      Diestrammena_aspes
      Diestrammena_chenhui
@@ -744,41 +705,20 @@ Taxa List:
      Diestrammena_sp.7
      Diestrammena_sp.8
      Diestrammena_sp.9
+     Diestrammena_unicolor
      Diexis_varentzovi
      Digamacris_amoena
-     Digamacris_amoenus
-     Dimeacris_prasina
+     Dimeracris_prasina
+     Diponthus_argentinus
      Diponthus_cribratus
      Dissosteira_carolina
      Diyllus_sp.
-     Dnopherula_brevicornis
-     Dnopherula_sinensis
-     Dnopherula_taeniatus
-     Dociostaurus_albicornis
-     Dociostaurus_anatolicus
      Dociostaurus_brevicollis
      Dociostaurus_jagoi
      Dociostaurus_kraussi
      Dociostaurus_maroccanus
      Dociostaurus_tartarus
      Dolichocercus_sp.
-     Dolichopoda_Capraiacris_aegilion
-     Dolichopoda_Capraiacris_baccettii
-     Dolichopoda_Chopardina_bormansi
-     Dolichopoda_Chopardina_cyrnensis
-     Dolichopoda_Chopardina_remyi
-     Dolichopoda_Chopardina_schiavazzii
-     Dolichopoda_Chopardina_schiavazzii_caprai
-     Dolichopoda_Dolichopoda_capreensis
-     Dolichopoda_Dolichopoda_euxina
-     Dolichopoda_Dolichopoda_geniculata
-     Dolichopoda_Dolichopoda_geniculata_pontiana
-     Dolichopoda_Dolichopoda_laetitiae
-     Dolichopoda_Dolichopoda_laetitiae_etrusca
-     Dolichopoda_Dolichopoda_ligustica
-     Dolichopoda_Dolichopoda_ligustica_septentrionalis
-     Dolichopoda_Dolichopoda_linderi
-     Dolichopoda_Dolichopoda_palpata
      Dolichopoda_aegilion
      Dolichopoda_annae
      Dolichopoda_araneiformis
@@ -794,8 +734,6 @@ Taxa List:
      Dolichopoda_euxina
      Dolichopoda_gasparoi
      Dolichopoda_geniculata
-     Dolichopoda_geniculata_geniculata
-     Dolichopoda_geniculata_pontiana
      Dolichopoda_giachinoi
      Dolichopoda_giulianae
      Dolichopoda_graeca
@@ -805,13 +743,9 @@ Taxa List:
      Dolichopoda_ithakii
      Dolichopoda_kiriakii
      Dolichopoda_laetitiae
-     Dolichopoda_laetitiae_laetitiae
-     Dolichopoda_ligustica
-     Dolichopoda_ligustica_ligustica
-     Dolichopoda_ligustica_septentrionalis
-     Dolichopoda_linderi
+     Dolichopoda_linderii
      Dolichopoda_lustriae
-     Dolichopoda_lyciae
+     Dolichopoda_lycia
      Dolichopoda_makrykapa
      Dolichopoda_matsakisi
      Dolichopoda_muceddai
@@ -820,7 +754,7 @@ Taxa List:
      Dolichopoda_palpata
      Dolichopoda_paraskevi
      Dolichopoda_patrizii
-     Dolichopoda_pavesi
+     Dolichopoda_pavesii
      Dolichopoda_petrochilosi
      Dolichopoda_remyi
      Dolichopoda_sbordonii
@@ -836,36 +770,34 @@ Taxa List:
      Drymophilacris_bimaculata
      Drymophilacris_monteverdensis
      Duartettix_montanus
+     Ducetia_biramosa
      Ducetia_japonica
+     Ducetia_punctipennis
      Duolandrevus_brachypterus
      Duronia_chloronota
      Duroniella_fracta
      Dysmorpha_sp.
      Dysonia_pirani
+     Dysonia_sp.
      Eclipophleps_glacialis
      Ecphanthacris_mirabilis
      Ecphymacris_lofaoshana
-     Egnatiuides_xinjiangensis
+     Egnatioides_xinjiangensis
      Egnatius_apicalis
-     Eirenephilus_longipennis
-     Elasmoderus
+     Elasmoderus_lutescens
      Elimaea_cheni
      Elimaea_chloris
      Ellipes_minuta
      Elysiacris
-     Encoptolophus_californicus
      Encoptolophus_costalis
      Encoptolophus_fuliginosus
      Encoptolophus_otomitus
-     Encoptolophus_pallidus
-     Encoptolophus_robustus
      Encoptolophus_sordidus
-     Encoptolophus_subgracilis
      Eneoptera_gracilis
      Eneoptera_guyanensis
      Eneoptera_nigripedis
      Eneoptera_surinamensis
-     Enochletica_affinis
+     Enochletica_ostentatrix
      Enodisomacris
      Enyaliopsis_sp.
      Eobiana_japonica
@@ -886,17 +818,14 @@ Taxa List:
      Eremippus_sobolevi
      Eremopachys
      Eremopeza_festiva
-     Erianthus
      Erianthus_serratus
      Erianthus_sp.
      Erianthus_versicolor
-     Erianthus_versicolour
      Eritettix_simplex
      Erucius_erianthoides
      Eschatoceras_bipunctatus
-     Eschatocerus_sp.
-     Espagnolina_microptera
-     Espagnolopsis
+     Eschatoceras_sp.
+     Espagnoleta_microptera
      Espagnolopsis_ornatipennis
      Eucephalacris_borellii
      Euchorthippus_declivus
@@ -908,15 +837,19 @@ Taxa List:
      Eucoptacra_kwangtungensis
      Eucoptacra_motuoensis
      Eucoptacra_praemorsa
+     Eucoptacra_sp.
+     Eugryllacris_japonica
      Euhadenoecus_insolitus
      Eujivarus_fusiformis
-     Eumastacidae_
+     Euloryma_sp.
+     Eumastax_salazari
      Eumastax_sp.
      Eumecopoda_cyrtoscelis
+     Eumecopoda_sp.
      Eumigus_rubioi
      Eunapiodes_sp.
      Euparatettix_bimaculatus
-     Euparatettix_variabilis
+     Euparatettix_nigritibis
      Eupholidoptera_akdeniz
      Eupholidoptera_anatolica
      Eupholidoptera_annamariae
@@ -929,7 +862,7 @@ Taxa List:
      Eupholidoptera_demirsoyi
      Eupholidoptera_epirotica
      Eupholidoptera_excisa
-     Eupholidoptera_femorata
+     Eupholidoptera_feri
      Eupholidoptera_forcipata
      Eupholidoptera_gemellata
      Eupholidoptera_giuliae
@@ -952,7 +885,6 @@ Taxa List:
      Eupholidoptera_pallipes
      Eupholidoptera_peneri
      Eupholidoptera_prasina
-     Eupholidoptera_rammei
      Eupholidoptera_sevketi
      Eupholidoptera_smyrnensis
      Eupholidoptera_spinigera
@@ -970,7 +902,6 @@ Taxa List:
      Eurepella_mjobergi
      Eurepella_moojerra
      Eurepella_torowatta
-     Eurotettix
      Eurotettix_brevicerci
      Eurotettix_bugresensis
      Eurotettix_carbonelli
@@ -983,37 +914,40 @@ Taxa List:
      Eurotettix_raphaelandrearum
      Eurotettix_robustus
      Eurotettix_similraphael
+     Euryastes_jagoi
+     Eurycorypha_sp.
+     Eurycorypha_varia
      Euryparyphes_terrulentus
-     Euschmidtia
+     Euryphymus_sp.
      Euschmidtia_cruciformis
      Euschmidtia_dirshi
      Euschmidtia_sp.
+     Euscyrtus_japonicus
      Eusitalces_vittatus
      Eutachycines_cassani
      Eutachycines_sp.
      Euthystira_brachyptera
-     Euthystira_brachypterous
      Eutryxalis_filata
-     Eyprepocnemis_hoktuensis
+     Exogryllacris_ornata
+     Eyprepocnemis_hokutensis
      Eyprepocnemis_perbrevipennis
-     Eyprepocnemis_plorans_meridionalis
-     Fer_bimaculatus
-     Fer_nonmaculatus
-     Fer_yunnensis
+     Eyprepocnemis_plorans
+     Fer_bimaculiformis
+     Fer_nonmaculiformis
+     Fer_yunnanensis
      Filchnerella_beicki
      Filchnerella_helanshanensis
      Filchnerella_kukunoris
      Filchnerella_nigritibia
-     Filchnerella_rubimargina
+     Filchnerella_rubimarginis
+     Filchnerella_rubrimargina
      Filchnerella_sp.
      Filchnerella_sunanensis
      Filchnerella_yongdengensis
-     Finotina_ranavolae
+     Finotina_ranavaloae
+     Forficula
      Formosatettix_yuanbaoshanensis
-     Fortficula
      Froggattina_australis
-     Fruhstorferila_huayinensis
-     Fruhstorferila_omei
      Fruhstorferiola_huangshanensis
      Fruhstorferiola_huayinensis
      Fruhstorferiola_kulinga
@@ -1021,13 +955,14 @@ Taxa List:
      Fruhstorferiola_omei
      Fruhstorferiola_tonkinensis
      Fruhstorferiola_viridifemorata
-     Gampsocieis_gratiosa
+     Fulvoscirtes_kilimandjaricus
+     Galidacris_variabilis
+     Gammarotettix_genitalis
      Gampsocleis_carinata
      Gampsocleis_gratiosa
      Gampsocleis_sedakovii
      Gampsocleis_sinensis
      Gampsocleis_ussuriensis
-     Gastrimagus_marmoratus
      Gastrimargus_africanus
      Gastrimargus_determinatus
      Gastrimargus_marmoratus
@@ -1037,50 +972,22 @@ Taxa List:
      Genimen_burmanum
      Genimen_yunnanensis
      Gerenia_intermedia
-     Gesonula_mundataszemaoensis
      Gesonula_punctifrons
+     Gesonula_szemaoensis
      Glauia
-     Glauia_terrea
      Glenophisis_borneo
-     Glyptobothrus_biguttulus
-     Glyptobothrus_binotatus
-     Glyptobothrus_jacobsi
-     Glyptobothrus_vagans
-     Glytobothrus_albonemus
-     Glytobothrus_apricarius
-     Glytobothrus_biguttulatus
-     Glytobothrus_biguttulus
-     Glytobothrus_changbaishanensis
-     Glytobothrus_dubis
-     Glytobothrus_hsiai
-     Glytobothrus_huabeiensis
-     Glytobothrus_huchengensis
-     Glytobothrus_rubensabsomensis
-     Glytobothrus_shantungensis
-     Glytobothrus_zhengi
-     Gomphoceridae
-     Gomphocerippus
      Gomphocerippus_rufus
      Gomphocerus_armeniacus
      Gomphocerus_licenti
-     Gomphocerus_rufus
      Gomphocerus_sibiricus
-     Gomphocerus_sibiricus_tibetanus
-     Gomphocerus_tibetanus
+     Gomphocerus_socius
      Gonista_yunnana
      Gowdeya_picta
-     Gromphadorhina
+     Graea_horrida
      Gromphadorhina_portentosa
-     Gryllacrididae
-     Gryllitara_sp.
-     Gryllitaria_sp.
-     Grylloblatta
      Grylloblatta_rothi
      Grylloblatta_sculleni
      Gryllodes_sigillatus
-     Grylloidea
-     Grylloides_sigillatus
-     Gryllotalpa
      Gryllotalpa_africana
      Gryllotalpa_australis
      Gryllotalpa_babinda
@@ -1088,7 +995,7 @@ Taxa List:
      Gryllotalpa_fulvipes
      Gryllotalpa_gryllotalpa
      Gryllotalpa_hirsuta
-     Gryllotalpa_howens
+     Gryllotalpa_howensis
      Gryllotalpa_inermis
      Gryllotalpa_insulana
      Gryllotalpa_major
@@ -1096,26 +1003,23 @@ Taxa List:
      Gryllotalpa_nitidula
      Gryllotalpa_orientalis
      Gryllotalpa_oya
-     Gryllotalpa_pilosipe
+     Gryllotalpa_pilosipes
      Gryllotalpa_pluvialis
      Gryllotalpa_sp.
      Gryllotalpa_tali
      Gryllotalpa_unispina
      Gryllotalpella_minor
-     Gryllotalpella_rehni_n._sp.
-     Gryllotalpella_tindalei_n._sp.
-     Gryllotalpidae
+     Gryllotalpella_rehni
+     Gryllotalpella_tindalei
+     Gryllotaurus_sp.
      Gryllus_assimilis
      Gryllus_bimaculatus
      Gryllus_campestris
-     Gryllus_domesticus
      Gryllus_firmus
      Gryllus_fultoni
      Gryllus_integer
      Gryllus_lineaticeps
-     Gryllus_oviopsis
      Gryllus_ovisopis
-     Gryllus_pennsyi
      Gryllus_pennsylvanicus
      Gryllus_rubens
      Gryllus_texensis
@@ -1127,31 +1031,37 @@ Taxa List:
      Halmenus_robustus
      Hamayulus_rufomaculatus
      Hamayulus_sp.
+     Hapithus_symphonos
      Haplotropis_brunneriana
-     Haplotropis_neimongolensis
-     Hazelacris_nigrovitattus
      Hazelacris_nigrovittatus
      Heide_amiculi
      Helioscirtus_moseri
-     Hemiandrus_alius
+     HemiandrusQ_genus_A
+     HemiandrusQ_genus_B
      Hemiandrus_bilobatus
-     Hemiandrus_disparalis
-     Hemiandrus_elegans
-     Hemiandrus_evansae
      Hemiandrus_focalis
-     Hemiandrus_horomaka
      Hemiandrus_maculifrons
      Hemiandrus_n.sp.1
      Hemiandrus_n.sp.2
-     Hemiandrus_onokis
+     Hemiandrus_okiwi
      Hemiandrus_pallitarsis
-     Hemiandrus_promontorius
      Hemiandrus_sp.
+     Hemiandrus_sp.1
+     Hemiandrus_sp.2
+     Hemiandrus_sp.3
+     Hemiandrus_sp._1
+     Hemiandrus_sp._2
+     Hemiandrus_sp_alius
+     Hemiandrus_sp_disparalis
+     Hemiandrus_sp_elegans
+     Hemiandrus_sp_evansae
+     Hemiandrus_sp_horomaka
+     Hemiandrus_sp_onokis
+     Hemiandrus_sp_promontorius
+     Hemiandrus_sp_timaru
+     Hemiandrus_sp_vicinus
      Hemiandrus_spp.
-     Hemiandrus_timaru
-     Hemiandrus_vicinus
      Hemicharilaus_monomorphus
-     Hemideina
      Hemideina_broughi
      Hemideina_crassidens
      Hemideina_femorata
@@ -1165,45 +1075,48 @@ Taxa List:
      Hemisaga_sp.
      Henicus_brevimucronatus
      Hesperotettix_viridis
-     Hesperotettix_viridis_viridis
      Heteracris_littoralis
+     Heteracris_sp.
      Heteromallus_cavicola
      Heteropternis_couloniana
      Heteropternis_obscurella
      Heteropternis_respondens
+     Heteropternis_sp.
      Hetrodes_pupus
      Hetrodes_sp.
      Hexacentrus_japonicus
-     Hieroglyphus_annuliconis
      Hieroglyphus_annulicornis
      Hieroglyphus_banian
      Hieroglyphus_concolor
      Hieroglyphus_tonkinensis
-     Hippiscus_apiculata
      Holochlora_sp.
      Holopercna_gerstaeckerii
-     Homeogryllus_sp.
-     Homeomastax
+     Homeomastax_acrita
      Homeomastax_dentata
      Homeomastax_surda
-     Horatosphaga_hanangensis
+     Homoeogryllus_sp.
+     Hoplolopha_sp.
+     Hoplosphyrum_sp.
      Horatosphaga_heteromorpha
      Horatosphaga_meruensis
-     Horatosphaga_montivaga
      Horatosphaga_new_species_X
-     Horatosphaga_nou
      Horatosphaga_parensis
      Horatosphaga_regularis
      Horatosphaga_sabuk
      Horatosphaga_sp.
      Horatosphaga_tenera
-     Huekaeana_sp.
+     Hueikaeana_sp.
+     Hyalopteryx_rufipennis
      Hylaezentia_acanthopyga
      Hyleacris_rubrogranulata
      Hypochlora_alba
+     Hypocophoides_sp.
      Hypocophus_sp.
      Hypogastrura
+     Ibonikawhite_nr._fissicauda
+     Idiarthron_sp.
      Incacris
+     Indet_sp.
      Indioscaptor_leptodactylus
      Indioscaptor_nepalicus
      Indopodisma_kingdoni
@@ -1212,19 +1125,18 @@ Taxa List:
      Isophya_altaica
      Isophya_andreevae
      Isophya_bureschi
-     Isophya_leonorae
-     Isophya_longicaudata_adamovici
+     Isophya_longicaudata
      Isophya_miksici
-     Isophya_modesta_longicaudata
      Isophya_obtusa
-     Isophya_petkovi
      Isophya_pienensis
      Isophya_rhodopensis
      Isophya_schneideri
      Isophya_speciosa
      Isophya_stysi
      Isophya_tosevski
+     Italohippus_albicorni
      Italopodisma_acuminata
+     Itara_sp.
      Ixalotettix_compactus
      Jagomphocerus_amazonicus
      Jivarini_n._sp.
@@ -1237,7 +1149,7 @@ Taxa List:
      Jivarus_carbonelli
      Jivarus_cohni
      Jivarus_discoloris
-     Jivarus_ecuadoria
+     Jivarus_ecuadoricus
      Jivarus_eumera
      Jivarus_guarandaensis
      Jivarus_gurneyi
@@ -1254,19 +1166,20 @@ Taxa List:
      Jivarus_rentzi
      Jivarus_riveti
      Jivarus_ronderosi
-     Jivarus_spatulatus
+     Jivarus_spatulus
      Jivarus_sphaericus
      Jivarus_viridis
      Jodacris_chapadensis
      Jodacris_ferruginea
      Karniella_bullata
-     Karniella_crassicerca_sp.n.
+     Karniella_crassicerca
      Karruia_sp.
+     Kassongia_vittata
      Kawanaphila_nartee
      Kawanaphila_sp.
-     Keyacris
      Keyacris_scurra
      Keyopsis_palidiventer
+     Kinangopa_jeanneli
      Kingdonella_bicollina
      Kingdonella_hanburyi
      Kingdonella_kozlovi
@@ -1277,16 +1190,17 @@ Taxa List:
      Kingdonella_qinghaiensis
      Kingdonella_rivuna
      Kingdonella_sp.
+     Kosciuscola_tristis
      Kraussaria_angulifera
      Kraussaria_dius
      Kraussaria_prasina
      Kritacris_arboricola
      Kuzicus_megaterminatus
      Lactista_azteca
-     Lactista_aztecus
      Lactista_elota
      Lactista_gibbosus
-     Lactista_punctatus
+     Lactista_punctata
+     Lagarolampis_amazonica
      Lamarckiana_sp.
      Lamecosoma_inermis
      Lamecosoma_new_species_Y
@@ -1298,14 +1212,12 @@ Taxa List:
      Laupala_kanaele
      Laupala_kohalensis
      Laupala_kokeensis
-     Laupala_kokeensos
      Laupala_kolea
      Laupala_koloa
      Laupala_kona
      Laupala_makaio
-     Laupala_mediapisa
+     Laupala_mediaspisa
      Laupala_melewiki
-     Laupala_molokai
      Laupala_molokaiensis
      Laupala_neospisa
      Laupala_nigra
@@ -1318,7 +1230,6 @@ Taxa List:
      Laupala_pruna
      Laupala_spisa
      Laupala_tantalis
-     Laupala_tantalus
      Laupala_vespertina
      Laupala_wailua
      Lebinthus_bitaeniatus
@@ -1336,64 +1247,59 @@ Taxa List:
      Leiotettix_pulcher
      Leiotettix_sanguineus
      Leiotettix_viridis
-     Leiottetix_pulcher
-     Leiottetix_viridis
      Lemba_bituberculata
      Lemba_daguanensis
-     Lemba_viridatibia
+     Lemba_viriditibia
      Lemba_yunnana
      Lemba_zhengi
      Lempira_metapanensis
      Lentula_callani
      Lentula_obtusa
      Lentula_obtusifrons
-     Lentulidae
-     Leprus_wheeleri
+     Leprus_wheelerii
+     Leptacris_monteiroi
+     Leptacris_sp.
      Leptacris_taeniata
-     Leptacris_vittata
-     Leptocurtilla_chopardi_n._sp.
-     Leptocurtilla_juanmanueli_n._sp.
+     Leptocurtilla_chopardi
+     Leptocurtilla_juanmanueli
+     Leptopedetes
      Leptophyes_sp.
      Leptopsis
      Leptopternis_gracilis
-     Leptopternis_maculatus
+     Leptopternis_maculata
+     Leptysma_marginicollis
      Lesina
      Letana_megastridula
      Leuconemacris_litangensis
      Leuronotina_orizabae
-     Lezina
      Lezina_sp.
-     Liaoacris_ochropteris
      Liebermannacris_dorsualis
      Liebermannacris_punctifrons
      Ligypterus_fuscus
      Ligypterus_linharensis
-     Liladownsia_fraile_gen._nov._sp._nov.
-     Lipotactes_maculates
-     Lirometopum
+     Liladownsia_fraile
+     Lipotactes_maculatus
      Lirometopum_coronatum
      Listroscelis_carinata
      Listroscelis_fusca
      Listroscelis_itatiaia
      Listroscelis_monnei
      Listroscelis_sooretama
-     Lithidiidae
      Lithidiopsis_carinatus
      Lithoscirtus_daedalus
      Lithoscirtus_viceitas
      Lobosceliana_brevicornis
+     Locheuma_brunneri
      Locusta_migratoria
-     Locusta_migratoria_manilensis
-     Locusta_migratoria_migratoria
-     Locusta_migratoria_migratorioides
-     Locusta_migratoria_tibetensis
-     Locusta_migratoris
-     Longgenacris_maculacorina
+     Loepacris_tolima
+     Longchuanacris_bidentata
+     Longgenacris_maculacarina
+     Longuripes
      Longzhouacris_hainanensis
      Longzhouacris_jinxiuensis
-     Longzhouacris_rufipenns
-     Loxoblemmus_amoriensis
+     Longzhouacris_rufipennis
      Loxoblemmus_angulatus
+     Loxoblemmus_aomoriensis
      Loxoblemmus_detectus
      Loxoblemmus_doenitzi
      Loxoblemmus_equestris
@@ -1405,24 +1311,26 @@ Taxa List:
      Luzaridella
      ME86_96_n._sp.
      Machaerocera_mexicana
+     Macrolopholia_sp.
      Macropathus_filifer
      Macroxiphus_sumatranus
      Maculiparia_rotundata
      Madasumma_sp.
      Malgasia_marmorata
      Malgasia_sp.
-     Marellia_geyskesia
+     Marellia_remipes
+     Mayagryllus
      Mayalina_cohni
      Maylasacris_digiticercus
      Maylasacris_montanus
      Maylasacris_rugosus
-     Meconematine_sp._Japan
+     Mazarredia_convexa
+     Meconematinae_sp.
+     Meconematinae_sp._Japan
      Mecopoda_elongata
-     Mecopoda_elongate
      Mecopoda_niponensis
-     Mecopoda_nipponensis
-     Mecostethus_alliaceus
      Mecostethus_parapleurus
+     Megacheilacris_graminicola
      Megaulacobothrus_aethalinus
      Megaulacobothrus_chinensis
      Megaulacobothrus_flexivenus
@@ -1439,6 +1347,7 @@ Taxa List:
      Melanoplus_alpinus
      Melanoplus_angustipennis
      Melanoplus_aridus
+     Melanoplus_arizonae
      Melanoplus_artemisiae
      Melanoplus_ascensus
      Melanoplus_aspasmus
@@ -1452,7 +1361,6 @@ Taxa List:
      Melanoplus_dawsoni
      Melanoplus_devastator
      Melanoplus_differentialis
-     Melanoplus_differntialis
      Melanoplus_fasciatus
      Melanoplus_femurnigrum
      Melanoplus_femurrubrum
@@ -1471,22 +1379,19 @@ Taxa List:
      Melanoplus_littoralis
      Melanoplus_madeleineae
      Melanoplus_marginatus
-     Melanoplus_marshalli
+     Melanoplus_marshallii
      Melanoplus_mexicanus
      Melanoplus_microtatus
-     Melanoplus_missouli
+     Melanoplus_missoulae
      Melanoplus_montanus
      Melanoplus_moyense
      Melanoplus_occidentalis
      Melanoplus_oregonensis
-     Melanoplus_orogonensis
      Melanoplus_packardii
-     Melanoplus_payetti
+     Melanoplus_payettei
      Melanoplus_pinicola
-     Melanoplus_sanguineus
+     Melanoplus_rusticus
      Melanoplus_sanguinipes
-     Melanoplus_sanguinipes_defectus
-     Melanoplus_sanguinipes_vulturnu
      Melanoplus_scudderi
      Melanoplus_sol
      Melanoplus_stupefactus
@@ -1494,32 +1399,37 @@ Taxa List:
      Melanoplus_truchensis
      Melanoplus_truncatus
      Melanoplus_undescribed_sp.
+     Melanoplus_walshii
      Melanoplus_yarrowii
+     Melanoscirtes_kibonotensis
      Melanotes
      Melanotettix_dibelonius
      Melicodes_tenebrosa
+     Meloimorpha_japonica
      Menglacris_maculata
      Meridacris_subaptera
      Mermiria_bivittata
+     Mermiria_intertexta
      Mesambria_maculipes
      Mesasippus_kozhevnikovi
      Mesoperlina
      Metaleptea_adspersa
      Metaleptea_brevicornis
      Metator_pardalinus
-     Metrioptera_japonica
      Mezentia_gibbera
      Microcentrum_rhombifolium
-     Micromebius_sp.
      Micropathus_tasmaniensis
+     Micrornebius_sp.
      Mimetica_tuberata
      Mioscirtus_wagneri
      Miramella_alpina
-     Miramella_sinensis
      Miramella_solitaria
+     Mirhipipteryx_andensis
+     Modicogryllus_volivoli
      Moluchacris
      Mongolotettix_anomopterus
      Mongolotmethis_gobiensis
+     Monistria_discrepans
      Monneacris_fascipes
      Monocerophora_minax
      Monocerophora_sp.
@@ -1527,30 +1437,34 @@ Taxa List:
      Montana_montana
      Monticolaria_kilimandjarica
      Monticolaria_manyara
-     Monticolaria_manyara_sp._nov.
      Monticolaria_meruensis
      Monticolaria_sp.
      Morphacris_fasciata
+     Morsea_sp.
      Mortoniellus_ovatus
      Motuweta_isolata
      Motuweta_riparia
+     Motuweta_sp.
      Myara_sordida
      Myara_unicolor
      Myara_wintrena
-     Myrmecophila_manni
      Myrmecophilus_manni
      Myrmecophilus_sp.
      Myrmeleotettix_antennatus
      Myrmeleotettix_maculatus
      Nahuelia_rubriventris
-     Nahuella_rubriventris
-     Nemobiinae
+     Nanodectes_sp.
+     Nebulatettix_pallidus
+     Nebulatettix_robustus
+     Nebulatettix_subgracilis
+     Nemobius_sylvestris
+     Nemoricantor
      Nemoura
      Neoconocephalus_affinis
      Neoconocephalus_bivocatus
      Neoconocephalus_caudellianus
      Neoconocephalus_ensiger
-     Neoconocephalus_exciliscanorus
+     Neoconocephalus_exiliscanorus
      Neoconocephalus_maxillosus
      Neoconocephalus_melanorhinus
      Neoconocephalus_nebrascensis
@@ -1563,88 +1477,75 @@ Taxa List:
      Neoconocephalus_spiza
      Neoconocephalus_triops
      Neoconocephalus_velox
-     Neocurtila_hexadactyla
-     Neocurtila_ingrishi_n._sp.
-     Neocurtila_scutata
-     Neocurtila_townsendi_n._sp.
      Neocurtilla_hexadactyla
+     Neocurtilla_ingrischi
+     Neocurtilla_scutata
      Neocurtilla_sp.
+     Neocurtilla_townsendi
      Neopedies_brunneri
      Neopedies_noroestensis
+     Neoscapteriscus_abbreviatus
+     Neoscapteriscus_borellii
      Neoscapteriscus_didactylus
      Neoscapteriscus_imitatus
      Neoscapteriscus_parvipennis
      Neoscapteriscus_peruvianus
      Neoscapteriscus_quadripunctatus
      Neoscapteriscus_tetradactylus
-     Neotridactylus
+     Neoscapteriscus_vicinus
      Neotridactylus_australis
      Netrosoma_xanthops
-     Nicsara_bifasciatum
+     Nicsara_bifasciata
      Nicsara_trigonalis
      Niitakacris_goganzanensis
-     Niitakacris_rosaeceanum
+     Niitakacris_rosacaenum
+     Niitakacris_rosaceanum
      Nisitrus_brunnerianus
      Nisitrus_hyalinus
      Nisitrus_sumatrensis
      Nisitrus_vittatus
+     Nocaracris_bulgaricus
      Nocaracris_cyanipes
-     Nomadacris_Patanga_japonica
-     Nomadacris_Patanga_luteicornis
-     Nomadacris_Patanga_pinchoti
-     Nomadacris_Patanga_succincta
+     Nocaracris_elegans
+     Nocaracris_rubripes
+     Noctivox
      Nomadacris_septemfasciata
-     Nomadacris_succincta
      Notostaurus_albicornis
      Notostaurus_anatolicus
      Notostaurus_popovi
      Novadrymadusa_karabagi
-     Ochaperites
      Ochraperites
      Ochrilidia_harterti
      Ochrilidia_tibialis
      Odontolakis_sp.
+     Odontolakis_virescens
      Odontomelus_scalatus
      Odontomelus_togoensis
      Odontura_aspericauda
      Odontura_glabricauda
      Odontura_macphersoni
-     Odontura_stenoxypha_arcuata
-     Odontura_stenoxypha_stenoxypha
+     Odontura_stenoxypha
      Oecanthus_nigricornis
+     Oecanthus_niveus
+     Oedaleus_abruptus
      Oedaleus_asiaticus
-     Oedaleus_asioticus
      Oedaleus_decorus
-     Oedaleus_decorus_asiaticus
-     Oedaleus_decorus_decorus
-     Oedaleus_decorus_infernalis
-     Oedaleus_decorus_manjius
+     Oedaleus_formosanus
      Oedaleus_infernalis
      Oedaleus_manjius
-     Oedalus_abruptus
-     Oedalus_decorus_asiaticus
-     Oedalus_decorus_decorus
-     Oedalus_formosanus
-     Oedalus_infernalis
-     Oedalus_manjius
-     Oedalus_rosescens
-     Oedipoda
+     Oedaleus_rosescens
      Oedipoda_caerulescens
-     Oedipoda_coerulescens
-     Oedipoda_fedchenkoi
+     Oedipoda_fedtschenki
      Oedipoda_miniata
-     Oedipodidae
      Ognevia_longipennis
      Ognevia_sergii
      Okanagana
      Oligotoma
      Omalotettix_obliquus
-     Omeiacris
      Ommatolampis_perspicillata
+     Ommatolampis_quadrimaculata
+     Ommexecha_brunneri
      Ommexecha_virens
-     Ommexechidae
-     Omocestus_burri
-     Omocestus_haemorhoidalis
      Omocestus_haemorrhoidalis
      Omocestus_minutissimus
      Omocestus_minutus
@@ -1662,7 +1563,8 @@ Taxa List:
      Ornebius_aperta
      Ornithacris_cavroisi
      Ornithacris_cyanea
-     Ornithacris_pictula_magnifica
+     Ornithacris_pictula
+     Ornithacris_sp.
      Ornithacris_turbida
      Orocharis_saltator
      Orophus_sp.
@@ -1674,8 +1576,7 @@ Taxa List:
      Orphulina_balloui
      Orthacanthacris_humilicrus
      Orthochtha_dasycnemis
-     Orthoscapheus_coryaceus
-     Oxya
+     Orthoscapheus_coriaceus
      Oxya_adentata
      Oxya_agavisa
      Oxya_anagavisa
@@ -1689,53 +1590,48 @@ Taxa List:
      Oxya_intricata
      Oxya_japonica
      Oxya_ningpoensis
-     Oxya_tinkhami
      Oxya_velox
      Oxya_yunnana
-     Oxycantantops_spissus
+     Oxycatantops_spissus
      Oxyina_sinobidentata
      Oxylakis_sp.
      Oxyrrhepes_cantonensis
-     Oxyrrhepes_obtuse
-     Oxyrrhepes_quadripunctata
+     Oxyrrhepes_obtusa
      Oxytauchira_brachyptera
      Oxytauchira_elegans
-     Oxytauchira_gracilia
+     Oxytauchira_gracilis
      Pachyacris_vinosa
      Pachyacris_violascens
-     Pachynotacris_amethystina
-     Pachyramma_edwardsii
+     Pachynotacris_amethystinus
+     Pachyrhamma_edwardsii
      Pachysaga_sp.
      Pachytrachis_gracilis
      Pallidoplectron_turneri
      Palpigera
-     Pamphagidae
      Panacanthus_cuspidatus
      Panacanthus_gibbosus
      Panacanthus_lacrimans
      Panacanthus_pallicornis
      Panacanthus_spinosus
-     Panacanthus_tuberculatus
      Panacanthus_varius
      Panamacris_magnifica
      Panoploscelis_sp.
+     Pantecphylus_sp.
+     Paracaloptenus_caloptenoides
      Paracinema_tricolor
      Paracinipe_exarata
-     Paracinipe_mauretanica
+     Paracinipe_mauritanica
      Paracrites
      Paracyphoderris_erebeus
-     Paracyptera_brevipennis
      Paradiestrammena_vernalis
      Paradrymadusa_aksirayi
      Paraeumigus_parvulus
+     Paragryllus_sp.
      Paramastax_nigra
      Paranisitra_longipes
-     Paranocaracris_bulgaricus
-     Paranocaracris_elegans
-     Paranocaracris_rubripes
      Paranocarodes_chopardi
+     Paranocarodes_straubei
      Paranothrotes_opacus
-     Paranothrotes_straubei
      Parapellopedon_uniformis
      Parapholidoptera_antaliae
      Parapholidoptera_bolkarensis
@@ -1743,7 +1639,7 @@ Taxa List:
      Parapholidoptera_distincta
      Parapholidoptera_flexuosa
      Parapholidoptera_grandis
-     Parapholidoptera_intermixa
+     Parapholidoptera_intermixta
      Parapholidoptera_karabagi
      Parapholidoptera_kosswigi
      Parapholidoptera_noxia
@@ -1755,33 +1651,34 @@ Taxa List:
      Parapholidoptera_yoruka
      Parapholidoptera_ziganensis
      Parapleminia_sp.
+     Parapodisma_awagatakensis
+     Parapodisma_caelestis
+     Parapodisma_dairisama
+     Parapodisma_etsukoana
      Parapodisma_mikado
-     Parapodsima_awagatakensis
-     Parapodsima_caelestis
-     Parapodsima_dairisama
-     Parapodsima_etsukoana
-     Parapodsima_mikado
-     Parapodsima_niihamensis
-     Parapodsima_setouchiensis
-     Parapodsima_subastris
-     Parapodsima_tenryuensis
-     Parapodsima_yasumatsui
+     Parapodisma_niihamensis
+     Parapodisma_setouchiensis
+     Parapodisma_subastris
+     Parapodisma_takeii
+     Parapodisma_tenryuensis
+     Parapodisma_yasumatsui
      Paraproscopia_riedei
-     Pararcyptera_brevipennis
      Pararhicnoderma_laselvae
-     Pararycptera_microptera_meridionalis
      Parasitalces_sexnotata
      Parasitalces_vulneratus
      Paratachycines_sp.
      Paratela_ovatipennis
-     Paratettix
      Paratettix_cucullatus
      Paratettix_toltecus
+     Paratettix_variabilis
      Paratoacris_reticulipennis
      Paratonkinacris
-     Paraxelpa_monstrosa
      Pardalophora_apiculata
+     Parepistaurus_deses
+     Pareusychius_defurcus
      Parga_lamottei
+     Paroecanthus_sp.
+     Paropaon_sp.
      Paropomala_wyomingensis
      Parorphula_graminea
      Parudenus_falklandicus
@@ -1789,30 +1686,34 @@ Taxa List:
      Patanga_humilis
      Patanga_japonica
      Patanga_luteicornis
-     Patanga_pinchoti
      Patanga_succincta
+     Paulinia_acuminata
      Pauracris_tenera
      Pediella_n._sp.
-     Pediodectes_sp.
-     Pedopodisma_emeiiensis
-     Pedopodisma_huangshana
-     Pedopodisma_protrucula
-     Pedopodisma_shennongjiana
+     Pediodectes
+     Pedopodisma_emeiensis
+     Pedopodisma_shennongjiaensis
      Pedopodisma_sp.
-     Pedopodisma_tsilingensis
      Pedopodisma_tsinlingensis
+     Penalva_flavocalceata
+     Penalva_sp.
+     Pentacentrus_sp.
      Peplacris
+     Peraxelpa_monstrosa
      Peringueyella_sp.
      Periplaneta_fuliginosa
      Peripolus_nepalensis
      Perixerus_squamipennis
      Peronura_clavigera
      Peronura_uguenoensis
+     Peru
+     Petamella_prosternalis
+     Pezocatantops_sp.
      Pezohippus_biplatus
      Pezotettix_anatolica
-     Pezotettix_giomae
      Pezotettix_giornae
      Phaeoparia_phrygana
+     Phaloria_sp.
      Phaneroptera_falcata
      Phaneroptera_gracilis
      Phaneroptera_myllocerca
@@ -1823,50 +1724,43 @@ Taxa List:
      Phaulotettix_compressus
      Philaenus
      Phlaeoba_albonema
-     Phlaeoba_angustifrons
+     Phlaeoba_angustidorsis
      Phlaeoba_antennata
-     Phlaeoba_infumaia
      Phlaeoba_infumata
      Phlaeoba_tenebrosa
      Phlaeobida_carinata
-     Phlesirtes_kibonotensis
-     Phlesirtes_kilimandjaricus
      Phlesirtes_merumontanus
      Phlibostroma_quadrimaculatum
      Phlugis_irregularis
      Phlugis_sp.
      Phoetaliotes_nebrascensis
      Pholidoptera_aptera
+     Pholidoptera_griseoaptera
      Pholidoptera_sp.
      Phrictaeformia_insulana
      Phrictaetypus_viridis
-     Phtyomastax_elegans
-     Phyllium
      Phyllium_bioculatum
      Phyllophora_sp.
      Phylloptera_sp.
      Phyllozelus_infumatus
-     Physeacris
-     Physemacris
+     Phymateus_morbillosus
      Physemacris_variolosa
-     Physemacris_variolosa_
+     Phytomastax_elegans
      Pielomastax_zhengi
      Plagiostira_albonotata
      Plagiotriptus_sp
+     Plagiotriptus_sp.
      Platycleis_affinis
      Platycleis_albopunctata
      Pleioplectron_simplex
-     Pneumora
      Pneumora_inanis
-     Pneumoridae
      Pnorisa_angulata
      Podisma_aberrans
+     Podisma_kanoi
      Podisma_pedestris
      Podisma_sapporensis
-     Podisma_tyatiensis
      Podismopsis_altaica
      Podismopsis_genicularibus
-     Podismopsis_genicularis
      Podismopsis_poppiusi
      Podismopsis_ussuriensis
      Poecilimon_affinis
@@ -1887,17 +1781,19 @@ Taxa List:
      Poecilimon_nobilis
      Poecilimon_obesus
      Poecilimon_obtusicercus
-     Poecilimon_orbeliscus
+     Poecilimon_orbelicus
      Poecilimon_ornatus
      Poecilimon_propinquus
-     Poecilimon_schmidti
+     Poecilimon_schmidtii
      Poecilimon_sp.
      Poecilimon_thessalicus
      Poecilimon_thoracicus
      Poecilimon_zwicki
+     Poecilocloeus_napoana
      Poecilocloeus_sp.
      Poecilomerus_sp.
      Polichne_argentata
+     Polionemobius_taprobanensis
      Polysarcus_denticauda
      Ponca_hebardi
      Ponca_venosa
@@ -1909,50 +1805,55 @@ Taxa List:
      Ponderacris_cuzcoensis
      Ponderacris_inca
      Ponderacris_peruvianus
+     Porraxia_sp.
+     Porthetis_carinata
      Praxibulus_sp.
-     Primnoa_arctica
-     Primnoa_litoralis
      Prionotropis_hystrix
-     Pristoceuthophilis_sp.
+     Pristoceuthophilus_sp.
+     Pristocorypha_sp.
      Proctolabus_mexicanus
      Prognathogryllus_puna
-     Prokelista
+     Prokelisia
      Prolaupala_kukui
+     Prolongurites
      Promesosternus_himalayicus
      Promesosternus_vittatus
      Propedies_n._sp._2
-     Prophalangopsis
-     Prosarthia_teretrirostris
-     Prosarthria
+     Prorocorypha_snowi
      Prosarthria_teretrirostris
-     Prosphena
+     Proscopia_sp.
      Prosphena_scudderi
      Prumna_arctica
      Prumna_cavicerca
+     Prumna_halrasana
+     Prumna_hayachinensis
      Prumna_jingpohu
      Prumna_litoralis
      Prumna_primnoa
      Prumna_primnoides
      Prumna_wuchangensis
      Psalmatophanes_barretoi
-     Pseudocopas_nigrigena
-     Pseudogignotettix_amamiensis
+     Pseudochorthippus_curtipennis
+     Pseudochorthippus_montanus
+     Pseudochorthippus_parallelus
+     Pseudoglauia_terrea
      Pseudogmothela_yonlii
      Pseudolebinthus_africanus
      Pseudolebinthus_whellani
+     Pseudomastax_sp.
+     Pseudomorphacris_hollisi
+     Pseudonautia_sp.
      Pseudopodisma_nagyi
-     Pseudoptygonotus
-     Pseudoptygonotus_gunshensis
+     Pseudoptygonotus_gunshanensis
      Pseudoptygonotus_kunmingensis
-     Pseudorhynchus_cornutum
+     Pseudorhynchus_cornutus
      Pseudorhynchus_hastifer
      Pseudoscopas_nigrigena
-     Pseudotmethis_rubimarginis
-     Pseudoxya
+     Pseudothericles_compressifrons
      Pseudoxya_diminuta
-     Pseuopodisma_nagyi
      Psiloscirtus_olivaceus
      Psiloscirtus_splendidus
+     Psinidia_fenestralis
      Psoloessa_delicatula
      Psophus_stridulus
      Pternoscirta_caliginosa
@@ -1967,29 +1868,27 @@ Taxa List:
      Pycnosarcus_atavus
      Pycnostictus_seriatus
      Pyramisternum_herbaceum
-     Pyrgacrididae
      Pyrgacris_descampsi
      Pyrgocorypha_sp.
-     Pyrgomorpha
+     Pyrgocorypha_subulata
      Pyrgomorpha_conica
-     Pyrgomorphidae
+     Pyrgomorpha_granulata
      Qinlingacris_elaeodes
      Qinlingacris_taibaiensis
      Quilta_oryzae
      Ramburiella_bolivari
      Ramburiella_turcomana
-     Rammeacris_kiangsu
      Ramulus_hainanense
      Ranacris
-     Raphidophora_sp.
      Rectimarginalis_ensis
      Requena_sp.
      Requena_verticalis
      Reticulitermes_hageni
      Reticulitermes_virginicus
+     Retuspia_validicornis
      Rhachicreagra_nothra
+     Rhachitopis_sp.
      Rhadinacris_schistocercoides
-     Rhainopomma
      Rhainopomma_magnificum
      Rhainopomma_montanum
      Rhainopomma_pseudomontanum
@@ -1999,61 +1898,55 @@ Taxa List:
      Rhammatocerus_pictus
      Rhammatocerus_schistocercoides
      Rhammatocerus_viatorius
-     Rhaphidophoridae
+     Rhaphidophora_sp.
      Rhaphotittha_levis
      Rhicnoderma_humilis
+     Rhinopodisma_eminifrontus
      Rhinotmethis_hummeli
+     Rhytidacris_punctata
+     Rhytidacris_tectifera
      Ritchiella_baumanni
      Robustusacris_balzapambae
-     Roeseliana_roeseli
-     Romaleidae
-     Ronderosia_bergi
+     Roeseliana_roeselii
      Ronderosia_bergii
      Ronderosia_forcipata
-     Ronderosia_forcipatus
      Roppacris_griseipes
-     Ruspolia
      Ruspolia_differens
      Ruspolia_dubia
-     Ruspolia_latipennis
+     Ruspolia_lineosa
      Ruspolia_nitidula
      Ruspolia_sp.
-     Saga_campbelli_campbelli
-     Saga_campbelli_gracilis
+     Rusurplia_tristis
+     Saga_campbelli
      Saga_cappadocica
-     Saga_ephippigera_ephippigera
+     Saga_ephippigera
+     Saga_gracilis
      Saga_hellenica
      Saga_natoliae
      Saga_ornata
      Saga_pedo
      Saga_rammei
      Salmanites_taltantris
-     Salmanites_wittiliko
      Salmanites_wittilliko
      Salomona_sp.
      Salvadoracris_nigritus
      Sasima_sp.
      Sathrophyllia_fuliginosa
-     Scapteriscus_abbreviatus
-     Scapteriscus_borelli
-     Scapteriscus_didactylus
+     Sathrophyllia_sp.
      Scapteriscus_headsi
      Scapteriscus_oxydactylus
      Scapteriscus_sp.
-     Scapteriscus_vicinus
+     Scelimena_melli
      Schedocentrus_sp.
      Schistocerca_albolineata
      Schistocerca_alutacea
      Schistocerca_americana
+     Schistocerca_brevis
      Schistocerca_cancellata
      Schistocerca_ceratiola
-     Schistocerca_chinatiensis
      Schistocerca_damnifica
-     Schistocerca_emarginata
      Schistocerca_flavofasciata
-     Schistocerca_flavofasicata
      Schistocerca_gregaria
-     Schistocerca_gregaria_gregaria
      Schistocerca_impleta
      Schistocerca_interrita
      Schistocerca_lineata
@@ -2063,17 +1956,18 @@ Taxa List:
      Schistocerca_obscura
      Schistocerca_pallens
      Schistocerca_piceifrons
-     Schistocerca_piceifrons_peruviana
      Schistocerca_quisqueya
      Schistocerca_rubiginosa
      Schistocerca_shoshone
      Schistocerca_socorro
-     Schistocerca_vaga
-     Schizobothrus_flallooittatus
-     Schizodactylidae
+     Schistocerca_sp.
+     Schizobothrus_flavovittatus
+     Schizodactylus_inexpectatus
+     Schmidtiacris_schmidti
      Sciarasaga_quadrata
+     Sciobia_finoti
+     Sclerogryllus_sp.
      Sclerophasma_paresisense
-     Sclerophasma_paresisensis
      Scopioricus_sp.
      Scotodrymadusa_annulicornis
      Scotodrymadusa_cincta
@@ -2084,8 +1978,8 @@ Taxa List:
      Scotodrymadusa_persa
      Scotodrymadusa_persica
      Scotodrymadusa_philbyi
-     Scotodrymadusa_rammei
      Scotodrymadusa_satunini
+     Scotodrymadusa_syriaca
      Scotussa_brachyptera
      Scotussa_cliens
      Scotussa_daguerrei
@@ -2096,17 +1990,15 @@ Taxa List:
      Scudderia_furcata
      Sherifuria_haningtoni
      Shirakiacris_brachyptera
-     Shirakiacris_shiraki
      Shirakiacris_shirakii
      Shirakiacris_yunkweiensis
      Shotwellia_isleta
      Sia_sp.
      Silacris_albithorax
-     Sinacris_longipennis
-     Sinacris_oreophilus
      Sinipta_dalmani
      Sinochlora_longifissa
      Sinopodisma_bidenta
+     Sinopodisma_emeiensis
      Sinopodisma_formosana
      Sinopodisma_guizhouensis
      Sinopodisma_hengshanica
@@ -2119,34 +2011,25 @@ Taxa List:
      Sinopodisma_lofaoshana
      Sinopodisma_lushiensis
      Sinopodisma_pieli
+     Sinopodisma_protrocula
      Sinopodisma_punctata
-     Sinopodisma_quizhouensis
-     Sinopodisma_rostellcerca
-     Sinopodisma_rostelloerca
-     Sinopodisma_shiraki
+     Sinopodisma_rostellocerca
      Sinopodisma_shirakii
      Sinopodisma_spinocerca
      Sinopodisma_splendida
      Sinopodisma_sunzishanensis
-     Sinopodisma_tsai
      Sinopodisma_tsaii
-     Sinopodisma_tsinglingensis
-     Sinopodisma_tsinlingensis
+     Sinopodisma_wulingshana
      Sinopodisma_wulingshanensis
-     Sinopodisma_wuyishana
      Sinopodisma_yingdensis
      Sinopodisma_zhengi
-     Sinotmethis_amicus
-     Sinotmethis_brachypterus
      Sinstauchira_gressitti
      Sinstauchira_pui
      Sinstauchira_ruficornis
-     Sinstauchira_yunnansis
+     Sinstauchira_yunnana
      Sitalces_volxemi
-     Spathosternum_prasinifernum_sinense
      Spathosternum_prasiniferum
-     Spathosternum_prasiniferum_prasiniferum
-     Spathosternum_prasiniferum_sinense
+     Spathosternum_sp.
      Spelaeiacris_monslamiensis
      Spelaeiacris_tabulae
      Spharagemon_campestris
@@ -2164,7 +2047,6 @@ Taxa List:
      Sphingonotus_fuscoirroratus
      Sphingonotus_guanchus
      Sphingonotus_haitensis
-     Sphingonotus_maculates
      Sphingonotus_maculatus
      Sphingonotus_maroccanus
      Sphingonotus_nebulosus
@@ -2176,22 +2058,18 @@ Taxa List:
      Sphingonotus_rugosus
      Sphingonotus_savignyi
      Sphingonotus_scabriculus
-     Sphingonotus_tsilingensis
-     Sphingonotus_tsinlingensi
      Sphingonotus_tsinlingensis
-     Sphingonotus_tsinlingonensis
      Sphingonotus_yenchihensis
      Sphyrometopa_femorata
      Spissistilus
      Squaroplatacris_elegans
      Squaroplatacris_violatibialis
-     Staroderus_scalaris
      Stauroderus_scalaris
-     Staurorhectus_longicornus
+     Staurorhectus_longicornis
      Steirodon_sp.
-     Steiroxys_trilineatus
+     Steiroxys_trilineata
+     Stenacris_sp.
      Stenampyx_annulicornis
-     Stenobothrus_brunneus
      Stenobothrus_carbonarius
      Stenobothrus_eurasius
      Stenobothrus_fischeri
@@ -2203,81 +2081,73 @@ Taxa List:
      Stenobothrus_sviridenkoi
      Stenobothrus_zubowskyi
      Stenocatantops_splendens
+     Stenocatantops_vitripennis
      Stenohippus_aequus
      Stenohippus_mundus
-     Stenopalmatus
-     Stenopelmatidae
      Stenopelmatus_fuscus
      Stenopelmatus_sp.
-     Stenotes
      Stethophyma_gracile
      Stethophyma_grossum
      Stethophyma_lineatum
      Stilpnochlora_sp.
-     Stiphra
      Stiphra_robusta
      Stolzia_hainanensis
      Stolzia_jianfengensis
      Swezwilderia_bryani
      Swezwilderia_sp.
      Syntechna_tarasca
+     Syntomacrella_sp.
      Syrbula_admirabilis
-     Syrbula_admirablis
      Syrbula_montezuma
-     Systella
-     Systella_rafflesi
+     Systella_annandalei
      Systella_sp.
      Systella_sp._B
      Systolederus_japonicus
+     Systolederus_spicupennis
      Taenionema
      Tagasta_indica
      Tagasta_marginella
      Tainacris
-     Talitropsis_sedilotti
-     Tamolanica_tamola
+     Talitropsis_sedilloti
      Tamolanica_tamolana
-     Tanaoceridae
-     Tanaocerus
      Tanaocerus_koebelei
-     Tanaocerus_koebeli
-     Tarragollus_diuturnus
+     Tarragoilus_diuturnus
      Tauchira_damingshana
+     Tauchira_longipennis
+     Tauchira_oreophilus
      Tebacris
      Teinophaus_saussurei
      Tela_neeavora
      Tela_viridula
      Teleogryllus_emma
-     Teleogryllus_emma_
      Teleogryllus_infernalis
      Teleogryllus_mitratus
      Teleogryllus_oceanicus
      Teleutias_sp.
-     Temnomastax
      Temnomastax_hamus
      Teredorus_carmichaeli
      Teredorus_prominemarginis
-     Tetragonia
-     Tetrigidae
-     Tetrigoidea
+     Tetrataenia_sp.
      Tetrix_bolivari
      Tetrix_japonica
      Tetrix_subulata
      Tetrix_tubercarina
      Tetrix_tuerki
-     Tettigonia
+     Tettigonia_cantans
      Tettigonia_chinensis
      Tettigonia_hispanica
      Tettigonia_sp.
      Tettigonia_viridissima
-     Tettigoniidae
      Teuthroides_mimeticus
-     Thalpomena_caerulescens
      Thalpomena_coerulescens
      Thalpomena_viridipennis
+     Thericlesiella_sp.
+     Thoradonta_nodulosa
      Thrinchus_schrenkii
      Thyridota_dispar
      Timema_californicum
      Timotes_malleatus
+     Titanacris_albipes
      Toacris_shaloshanensis
      Toacris_yaoshanensis
      Tomonotus_ferruginosus
@@ -2286,35 +2156,29 @@ Taxa List:
      Tonkinacris_meridionalis
      Tonkinacris_ruficerus
      Tonkinacris_sinensis
-     Tonkinacris_yaemaensis
+     Tonkinacris_yaeyamaensis
      Torbia_viridissima
-     Trachyrhachis_kiowa
      Trachyrhachys_kiowa
-     Trachytettix_horridus
+     Trachytettix_bufo
+     Transaevum_sp.
      Traulia_lofaoshana
      Traulia_minuta
-     Traulia_nigrotibialis
+     Traulia_nigritibialis
      Traulia_orchotibialis
      Traulia_orientalis
-     Traulia_orientalis_szetschuanensis
      Traulia_ornata
-     Traulia_ornate
-     Traulia_szetechuanensis
      Traulia_szetschuanensis
-     Traulia_szetshuanensis
-     Traulia_tonknensis
+     Traulia_tonkinensis
      Traulitonkinacris
-     Triamescaptor_aoeta
      Triamescaptor_aotea
+     Trichocatantops_villosus
+     Trigonocorypha_sp.
      Trigonocorypha_sp.1
      Trigonocorypha_sp.2
-     Trigonopterygidae
      Trigonopteryx_hopei
      Trigonopteryx_nr._hopei
-     Trilophidea_annulata
      Trilophidia_annulata
      Trimerotropis_californica
-     Trimerotropis_californicus
      Trimerotropis_cincta
      Trimerotropis_cyaneipennis
      Trimerotropis_latifasciata
@@ -2328,13 +2192,13 @@ Taxa List:
      Trimerotropis_pseudofasciata
      Trimerotropis_saxatilis
      Trimerotropis_sp
+     Trimerotropis_sp.
      Trimerotropis_sp._Argentina
-     Trimerotropis_verruculata_suffu
-     Tristira
+     Trimerotropis_verruculata
      Tristira_magellanica
-     Tristiridae
-     Tristria_palvinata
-     Tristria_pisciform
+     Tristria_discoidalis
+     Tristria_pisciforme
+     Tristria_pulvinata
      Troglophilus_adamovici
      Troglophilus_andreinii
      Troglophilus_bicakcii
@@ -2351,10 +2215,11 @@ Taxa List:
      Troglophilus_sp._nov._2
      Troglophilus_tatyanae
      Tropidischia_sp.
-     Tropidostethus
+     Tropidostethus_angusticollis
      Truxalis_eximia
      Truxalis_nasuta
-     Tuarega_ouarzazatensis
+     Truxalis_sp.
+     Tuarega_insignis
      Tylopsis_lilifolia
      Tylopsis_sp.
      Tylotropidius_sp.
@@ -2363,8 +2228,8 @@ Taxa List:
      Typophyllum_sp.
      Udenus_w_nigrum
      Uretacris
-     Urubamba_ecuadorica
-     Usambilla_affinis_affinis
+     Urnisiella_rubropunctata
+     Usambilla_affinis
      Usambilla_olivacea
      Usambilla_sagonai
      Usambilla_sp.
@@ -2372,7 +2237,6 @@ Taxa List:
      Uvaroviella_n._sp.
      Uvarovistia_iraka
      Uvarovistia_satunini
-     Uvarovistia_uvarovi
      Valanga_conspersa
      Valanga_irregularis
      Valanga_marquesana
@@ -2382,41 +2246,35 @@ Taxa List:
      Velarifictorus_beybienkoi
      Velarifictorus_micado
      Velarifictorus_ornatus
+     Vilerna_sp.
      Vossia_obesa
+     Warramunga_sp.
      Weissenbornia_sp.
-     Wernerella_pachecoi
-     Whitea_nr._fissicauda
      Willemsea_bimaculata
      Xanthippus_corallipes
      Xanthippus_montanus
      Xanthippus_olancha
+     Xanthippus_sp.
      Xenacanthippus_hainanensis
-     Xenocantantops_brachycercus
-     Xenocantantops_humilis
+     Xenerianthus_affinis
      Xenocatantops_brachycerus
      Xenocatantops_humilis
-     Xenocatantops_vioalceiepes
      Xenogryllus_eneopteroides
      Xenogryllus_marmoratus
      Xenogryllus_n._sp.
      Xenogryllus_sp.
      Xenogryllus_transversus
-     Xenorryllus_marmoratus
      Xerohippus_anatolicus
      Xiphidiopsis_sp.
      Xiphiola_borellii
      Xiphophyllum_sp.
      Xizicus_fascipes
-     Xizicus_fuscipes
      Xyleus_modestus
-     Xyronotus
-     Xyronotus_astecus
      Xyronotus_aztecus
      Yunnanacris_yunnaneus
      Yunnanites_coriacea
-     Yupodisma_rufipennis
      Yutjuwalia_sp.
-     Zabalius_opthalmicus
+     Zabalius_ophthalmicus
      Zacompsa_festa
      Zebragryllus_wittoto
      Zichya_baranovi
@@ -2433,9 +2291,8 @@ Taxa List:
      Zoniopoda_similis
      Zoniopoda_tarsata
      Zosperamerus_sp.
-     Zubovskia_koeppeni
-     Zubovskia_parvula
-     Zubovskia_planicaudata
-     Zubovskia_striata
      Zubovskya_koeppeni
+     Zubovskya_mistshenkoi
+     Zubovskya_planicaudata
+     Zuludectes_modestus
 ----------------------
