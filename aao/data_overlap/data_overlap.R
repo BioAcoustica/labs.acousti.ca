@@ -4,7 +4,7 @@ library(xtable)
 library(VennDiagram)
 
 #Authenticate to bio.acousti.ca, using credentials in authenticate.R  (not in version control)
-source("authenticate.R")
+source("../authenticate.R")
 c <- drupalr.authenticate("bio.acousti.ca", user, pass)
 
 #Load and parse STK file - this could be broken out into another package? PErhaps with extra functions
@@ -69,6 +69,23 @@ draw.triple.venn(
   length(intersect(ba_names, intersect(stk_names, traits_names))),
   category = c("BioAcoustica", "Supertree", "Traits"),
   main = "Data overlap in AAO",
+  euler.d = TRUE,
+  scaled = TRUE
+);
+dev.off()
+
+#Acoustics overlap
+png("sound_collections_overlap.png")
+draw.triple.venn(
+  length(ba_names),
+  length(osf_names),
+  length(ml_names),
+  length(intersect(ba_names,osf_names)),
+  length(intersect(osf_names,ml_names)),
+  length(intersect(ba_names,ml_names)),
+  length(intersect(ba_names, intersect(osf_names, ml_names))),
+  category = c("BioAcoustica", "Orthoptera Species File", "Macaulay Library"),
+  main = "Data overlap in sound collections",
   euler.d = TRUE,
   scaled = TRUE
 );
